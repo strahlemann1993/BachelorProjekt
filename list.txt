@@ -1,8 +1,0 @@
-Kamera 
-Mikrofon
-Lautsprecher
-Taster 
-Klingel
-(Kabel?)
-LED/Türschloss		
-Android App 		Wayne

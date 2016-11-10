@@ -1,0 +1,19 @@
+Funktionen:
+
+	Kamera
+	
+	Sprechanlage
+	
+	optional: Chipkarte/Zahlencode
+	
+	
+	
+	Android App: Entriegeln, Kamerabild anzeigen,Gegensprechanlage
+	
+	Kamera 
+	Mikrofon
+	Lautsprecher
+	Taster 
+	Klingel
+	(Kabel?)
+	LED/Türschloss
