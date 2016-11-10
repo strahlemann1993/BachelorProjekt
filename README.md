@@ -11,7 +11,7 @@ Um in das Projekt zu kommen, müsst ihr Wayne euren Benutzernamen zukommen lasse
   - Den Ordner wo ihr es abspeichern wollt
   - Nun habt ihr ein lokales Abbild von unserem Projekt  
   
-Wenn ihr Änderungen in einer Datei oder neue Ordner etc. erstellt und diese auf den Server legen wollt müsst ihr folgendes tun:  
+Wenn ihr Änderungen in einer Datei oder neue Ordner etc. erstellt und diese auf den Server legen wollt müsst ihr folgendes tun:
 - Auf der linken Seite „BachelorProjekt“ auswählen.
 - Oben in der Mitte auf *Changes* gehen.
 - Dann seht ihr schon welche Dateien ihr geändert habt.
@@ -24,4 +24,4 @@ Wenn ihr Änderungen in einer Datei oder neue Ordner etc. erstellt und diese auf
   - Einfach bei *History* den entsprechenden Commit auswählen und auf *Revert*.  
 Wenn ihr dann euren Code hochladen wollt und alles kompiliert bei *History* auf *Sync* gehen. Die Änderungen die auf dem Server in der Zwischenzeit gemacht worden sind werden runtergeladen und eure hoch.  
 
-**Bevor man wieder anfängt zu Programmieren sollte man vorher einen *Sync* machen um die neusten Änderungen reinzubekommen.**
+**Bevor man wieder anfängt zu programmieren sollte man vorher einen *Sync* machen um die neusten Änderungen reinzubekommen.**
