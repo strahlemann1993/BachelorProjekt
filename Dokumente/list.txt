@@ -6,3 +6,12 @@ Klingel
 (Kabel?)
 LED/Türschloss		
 Android App 		Wayne
+
+
+Materialliste für Klingel, Taster Kabel (Michelle, Maria)
+****************************
+1 LED = simuliert Türschloss
+1 LED = simuliert die Klingel
+2 Kabel für den Taster und die Klingel
+1 Taster
+alle  kompatibel zu dem Raspbian
