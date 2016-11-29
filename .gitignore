@@ -1,0 +1,7 @@
+LICENSE.TXT
+runtime/
+start.bat
+start_debug.bat
+start_debug.sh
+start.sh
+userdata/
