@@ -5,4 +5,8 @@ sitemap tuer label="Hauptmenue"
 		Group item=Cam label="Kamera" icon="camera"
 		Switch item=CamAnAus label="Kamera schalten" icon="camera"
 	}
+	Frame
+	{
+		Image url="http://217.92.146.74:80/-wvhttp-01-/GetOneShot?image_size=640x480&frame_count=no_limit"
+	}
 }
