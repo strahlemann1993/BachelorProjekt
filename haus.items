@@ -1,0 +1,11 @@
+// Gruppen
+Group Entriegeln
+Group IPCAM
+
+
+/*an*/
+
+Switch an_entriegeln1 "Tür öffnen"	(Entriegeln) 
+
+Switch an_entriegeln2 "Sprechen"    (Entriegeln)
+

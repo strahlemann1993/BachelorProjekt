@@ -1,0 +1,13 @@
+sitemap Haus label="Hauptmenue"
+{
+	Frame{
+			Group item=Entriegeln label="Entriegeln" icon="key"
+			
+			
+			Text     icon="camera" {
+				 Video url="http://96.10.1.168/mjpg/1/video.mjpg?timestamp=1481202612673/videostream.cgi?rate=0&" encoding="mjpeg"  label="IP-Cam 01"  
+			}
+	}
+	
+
+}
