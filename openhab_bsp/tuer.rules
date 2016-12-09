@@ -1,0 +1,69 @@
+import org.openhab.script.actions.*
+
+/* Regeln, die bisher nur Notifications an das Smartphone senden und
+ * ein bisschen dynamisch die Sitemap ändern.
+ * 
+ * Um die Notifications zu erhalten, muss man das Addon my.openhab
+ * installieren und da auch einen Account haben und die entsprechende
+ * Email hier eintragen. Anschließend nur noch Benutzername und PW und
+ * https://my.openhab.org als Remote URL in der App setzen.
+ * Die App funktioniert dann auch ortsunabhängig, egal ob WLAN und Mobilfunk.
+ */
+
+rule klingeln
+when
+	Item klingel received command ON
+then
+	sendNotification("stehlinglucas93@gmail.com", "Jemand klingelt")
+	sendCommand(camSwitch, ON)
+	//Stream starten
+	//simulierte Klingel klingeln lassen
+end
+
+rule tuerOeffnen
+when
+	Item tuerSwitch received command ON
+then
+	sendNotification("stehlinglucas93@gmail.com", "Tür ist geschlossen")
+	//Tür öffnen
+end
+
+rule tuerSchliessen
+when
+	Item tuerSwitch received command OFF
+then
+	sendNotification("stehlinglucas93@gmail.com", "Tür ist geschlossen")
+	//Tür schließen?
+end
+
+rule streamStarten
+when
+	Item camSwitch received command ON
+then
+	sendNotification("stehlinglucas93@gmail.com", "Stream gestartet")
+	//Stream Starten
+end
+
+rule streamBeenden
+when
+	Item camSwitch received command OFF
+then
+	sendNotification("stehlinglucas93@gmail.com", "Stream beendet")
+	//Stream beenden
+end
+
+rule microAn
+when
+	Item microSwitch received command ON
+then
+	sendNotification("stehlinglucas93@gmail.com", "Micro an")
+	//Micro anschalten
+end
+
+rule microAus
+when
+	Item microSwitch received command OFF
+then
+	sendNotification("stehlinglucas93@gmail.com", "Micro aus")
+	//Micro ausschalten
+end
