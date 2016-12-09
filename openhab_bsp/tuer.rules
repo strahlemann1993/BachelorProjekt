@@ -7,7 +7,7 @@ import org.openhab.script.actions.*
  * installieren und da auch einen Account haben und die entsprechende
  * Email hier eintragen. Anschließend nur noch Benutzername und PW und
  * https://my.openhab.org als Remote URL in der App setzen.
- * Die App funktioniert dann auch ortsunabhängig, egal ob WLAN und Mobilfunk.
+ * Die App funktioniert dann auch ortsunabhängig, egal ob WLAN oder Mobilfunk.
  */
 
 rule klingeln
