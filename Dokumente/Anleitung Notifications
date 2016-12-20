@@ -1,0 +1,17 @@
+https://my.openhab.org/docs 
+
+wget https://dl.bintray.com/openhab/mvn/org/openhab/io/org.openhab.io.myopenhab/1.8.0/org.openhab.io.myopenhab-1.8.0.jar
+
+openhab starten --> /webapps/static/secret und /webapps/static/uuid werden generiert
+
+https://my.openhab.org/account account anlegen und uuid und secret eintragen
+
+neue user mit e-mail (myopenhab account) hinzufügen; neue user unter /configurations/users.cfg abspeichern. Syntax: "<username>=<password>,user,role"
+
+in der openhab app openhab URL eintragen
+
+remote URL: https://my.openhab.org
+
+Username:<username> Password:<password> (aus /configurations/users.cfg)
+
+ 
