@@ -7,3 +7,4 @@ Mögliche Lösung um Audio zu verarbeiten.
 https://github.com/openhab/openhab/wiki/Pulseaudio-Binding
 http://www.tlanfer.de/2015/08/13/multiroom-audio-using-mpd-pulseaudio-and-bluetooth/
 https://github.com/openhab/openhab/wiki/Controlling-openHAB-with-your-voice
+https://github.com/openhab/openhab/wiki/Actions#audio-actions
