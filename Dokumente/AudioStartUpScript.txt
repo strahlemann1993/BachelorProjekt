@@ -1,0 +1,21 @@
+http://elinux.org/R-Pi_Troubleshooting#Sound_does_not_work_at_all.2C_or_in_some_applications
+
+By default output will be automatic (hdmi if hdmi supports audio, otherwise analogue). You can force it with:
+
+ amixer cset numid=1
+where n is 0=auto, 1=headphones, 2=hdmi.
+
+If you have pulseaudio installed you need to also specify the card number:
+
+ amixer -c 0 cset numid=1
+
+
+Test audio
+speaker-test -t sine -f 440 -c 2 -s 1
+
+
+
+
+------------------------------------------------------
+
+https://wiki.archlinux.org/index.php/PulseAudio/Examples
