@@ -33,3 +33,4 @@ java \
 	-Djava.awt.headless=true \
 	-jar $cp $* \
 	-console
+

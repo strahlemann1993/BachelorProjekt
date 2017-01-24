@@ -12,13 +12,19 @@ import org.openhab.script.actions.*
 
 rule klingeln
 when
-	Item taster received update 
+	Item taster changed from OPEN to CLOSED
 then
-	logInfo("test", "HAHAHA GPIO 22 changed to "+ taster.state)
-        sendBroadcastNotification("GPIO 22 changed to "+ taster.state)
-        sendCommand(camSwitch, ON)
+	//logInfo("test", "HAHAHA GPIO 22 changed to "+ taster.state)
+        //sendBroadcastNotification("GPIO 22 changed to "+ taster.state)
+        //sendCommand(camSwitch, ON)
 	sendCommand(LED2,ON)
+	Thread::sleep(10000)
+	sendCommand(LED2,OFF)
 end
+
+
+
+
 
 rule tuerOeffnen
 when
@@ -72,12 +78,43 @@ rule testAn
 when
 	Item testSwitch received command ON
 then
-	say("Hallo Welt")
+	//say("Hallo Welt")
+	executeCommandLine(" /opt/openhab/configurations/scripts/speech.sh Ich bin gleich da")
 end
 
 rule testAus
 when
 	Item testSwitch received command OFF
 then
-	say("Bye Welt")
+	//say("Bye Welt")
+	executeCommandLine(" /opt/openhab/configurations/scripts/speech.sh Geh weg")
+end
+
+rule sagen
+when
+	Item VoiceCommand received command
+then
+	logInfo("Voice.Rec","VoiceCommand received "+VoiceCommand.state.toString)
+	executeCommandLine(" /opt/openhab/configurations/scripts/speech.sh " + VoiceCommand.state.toString)
+end
+
+rule textSagen
+when
+	Item TextInput changed
+then
+	executeCommandLine(" /opt/openhab/configurations/scripts/speech.sh Hallo " + TextInput.state.toString)
+	logInfo("Voice.Rec","VoiceCommand received "+VoiceCommand.state.toString)
+end
+
+rule auswahlBox
+when
+	Item sage received command
+then
+	switch(receivedCommand)
+	{
+		case 0: executeCommandLine( " /opt/openhab/configurations/scripts/speech.sh Bin gleich da")
+		case 1: executeCommandLine( " /opt/openhab/configurations/scripts/speech.sh Bin nicht zu Hause")
+		case 2: executeCommandLine( " /opt/openhab/configurations/scripts/speech.sh Bin in einer Stunde da")
+		case 3: executeCommandLine( " /opt/openhab/configurations/scripts/speech.sh Stellen sie es in der Garage ab")
+	}
 end

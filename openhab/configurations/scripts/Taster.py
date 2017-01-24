@@ -1,10 +1,11 @@
+#!/usr/bin/env python
 # Verwenden von GPIO
 import RPi.GPIO as GPIO
 import time
 # Warnungen ausschalten
 #GPIO.setwarnings(False)
 # Pin Nummern verwenden
-
+GPIO.cleanup()
 GPIO.setmode(GPIO.BCM)
 # Pin 11 als Input
 GPIO.setup(22, GPIO.IN)
