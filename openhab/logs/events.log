@@ -1,0 +1,120 @@
+2017-01-23 17:01:19 - raspiLED state updated to OFF
+2017-01-23 17:52:57 - raspiLED state updated to OFF
+2017-01-23 19:02:40 - raspiLED state updated to OFF
+2017-01-23 19:05:29 - camSwitch received command ON
+2017-01-23 19:05:36 - microSwitch received command ON
+2017-01-23 19:05:38 - microSwitch received command OFF
+2017-01-23 19:06:00 - tuerSwitch received command ON
+2017-01-23 19:06:02 - tuerSwitch received command OFF
+2017-01-23 19:06:04 - raspiLED received command ON
+2017-01-23 19:06:05 - raspiLED received command OFF
+2017-01-23 19:06:09 - tuerSwitch received command ON
+2017-01-23 19:06:09 - raspiLED received command ON
+2017-01-23 19:06:42 - tuerSwitch received command OFF
+2017-01-23 19:06:42 - raspiLED received command OFF
+2017-01-23 19:14:52 - raspiLED state updated to OFF
+2017-01-23 19:31:38 - microSwitch received command ON
+2017-01-23 19:40:16 - raspiLED state updated to OFF
+2017-01-23 20:00:47 - raspiLED state updated to OFF
+2017-01-23 20:14:10 - raspiLED state updated to OFF
+2017-01-23 21:41:49 - tuerSwitch received command ON
+2017-01-23 21:41:56 - raspiLED received command ON
+2017-01-23 23:24:53 - raspiLED state updated to OFF
+2017-01-23 23:40:37 - raspiLED state updated to OFF
+2017-01-23 23:42:19 - tuerSwitch received command ON
+2017-01-23 23:42:25 - raspiLED received command ON
+2017-01-23 23:42:27 - camSwitch received command ON
+2017-01-23 23:42:44 - tuerSwitch received command OFF
+2017-01-23 23:42:46 - raspiLED received command OFF
+2017-01-24 00:01:20 - raspiLED state updated to OFF
+2017-01-24 00:02:18 - camSwitch received command ON
+2017-01-24 00:02:55 - tuerSwitch received command ON
+2017-01-24 00:03:00 - raspiLED received command ON
+2017-01-24 00:04:19 - tuerSwitch received command OFF
+2017-01-24 00:04:23 - raspiLED received command OFF
+2017-01-24 00:18:39 - raspiLED state updated to OFF
+2017-01-24 00:18:39 - taster state updated to CLOSED
+2017-01-24 00:18:39 - LED2 state updated to OFF
+2017-01-24 00:22:20 - raspiLED state updated to OFF
+2017-01-24 00:22:20 - taster state updated to OPEN
+2017-01-24 00:22:20 - LED2 state updated to OFF
+2017-01-24 00:30:03 - raspiLED state updated to OFF
+2017-01-24 00:30:03 - taster state updated to OFF
+2017-01-24 00:30:03 - LED2 state updated to OFF
+2017-01-24 00:31:34 - tuerSwitch received command ON
+2017-01-24 00:31:41 - raspiLED received command ON
+2017-01-24 00:31:51 - tuerSwitch received command OFF
+2017-01-24 00:31:52 - raspiLED received command OFF
+2017-01-24 00:33:33 - raspiLED state updated to Undefined
+2017-01-24 00:33:33 - taster state updated to Undefined
+2017-01-24 00:33:33 - LED2 state updated to Undefined
+2017-01-24 00:33:34 - taster state updated to OFF
+2017-01-24 00:33:34 - LED2 state updated to OFF
+2017-01-24 00:45:16 - raspiLED state updated to OFF
+2017-01-24 00:45:16 - taster state updated to OFF
+2017-01-24 00:45:16 - LED2 state updated to OFF
+2017-01-24 00:50:39 - raspiLED state updated to OFF
+2017-01-24 00:50:39 - taster state updated to OFF
+2017-01-24 00:50:39 - LED2 state updated to OFF
+2017-01-24 01:02:09 - tuerSwitch received command ON
+2017-01-24 01:02:16 - raspiLED received command ON
+2017-01-24 01:02:30 - tuerSwitch received command OFF
+2017-01-24 01:02:31 - raspiLED received command OFF
+2017-01-24 01:02:54 - camSwitch received command ON
+2017-01-24 01:07:43 - LED2 state updated to Undefined
+2017-01-24 01:17:58 - raspiLED state updated to OFF
+2017-01-24 01:17:58 - taster state updated to OFF
+2017-01-24 01:17:58 - LED2 state updated to OFF
+2017-01-24 01:18:42 - testSwitch received command ON
+2017-01-24 01:18:47 - testSwitch received command OFF
+2017-01-24 01:18:49 - testSwitch received command ON
+2017-01-24 01:18:55 - testSwitch received command OFF
+2017-01-24 01:18:55 - testSwitch received command ON
+2017-01-24 01:19:26 - tuerSwitch received command ON
+2017-01-24 01:19:28 - raspiLED received command ON
+2017-01-24 01:21:16 - tuerSwitch received command OFF
+2017-01-24 01:21:17 - LED2 received command OFF
+2017-01-24 01:21:33 - tuerSwitch received command ON
+2017-01-24 01:21:34 - LED2 received command ON
+2017-01-24 01:22:36 - raspiLED state updated to Undefined
+2017-01-24 01:22:36 - taster state updated to Undefined
+2017-01-24 01:22:36 - LED2 state updated to Undefined
+2017-01-24 01:22:37 - taster state updated to OPEN
+2017-01-24 01:28:41 - tuerSwitch received command ON
+2017-01-24 01:28:42 - raspiLED received command ON
+2017-01-24 01:28:44 - tuerSwitch received command OFF
+2017-01-24 01:28:45 - raspiLED received command OFF
+2017-01-24 01:22:45 - raspiLED state updated to OFF
+2017-01-24 01:22:46 - taster state updated to CLOSED
+2017-01-24 01:22:46 - LED2 state updated to OFF
+2017-01-24 01:23:07 - camSwitch received command ON
+2017-01-24 01:23:19 - camSwitch received command OFF
+2017-01-24 01:24:05 - microSwitch received command ON
+2017-01-24 01:24:05 - microSwitch received command OFF
+2017-01-24 01:25:22 - tuerSwitch received command ON
+2017-01-24 01:25:25 - raspiLED received command ON
+2017-01-24 01:25:28 - tuerSwitch received command OFF
+2017-01-24 01:25:30 - raspiLED received command OFF
+2017-01-24 01:25:32 - camSwitch received command ON
+2017-01-24 01:25:37 - tuerSwitch received command ON
+2017-01-24 01:25:40 - raspiLED received command ON
+2017-01-24 01:28:42 - tuerSwitch received command OFF
+2017-01-24 01:28:44 - raspiLED received command OFF
+2017-01-24 01:36:01 - tuerSwitch received command ON
+2017-01-24 01:36:08 - raspiLED received command ON
+2017-01-24 01:47:17 - raspiLED state updated to OFF
+2017-01-24 01:47:17 - taster state updated to CLOSED
+2017-01-24 01:47:18 - LED2 state updated to OFF
+2017-01-24 01:47:39 - camSwitch received command ON
+2017-01-24 01:47:41 - LED2 received command ON
+2017-01-24 01:48:28 - tuerSwitch received command ON
+2017-01-24 01:48:32 - raspiLED received command ON
+2017-01-24 01:49:14 - tuerSwitch received command OFF
+2017-01-24 01:49:18 - raspiLED received command OFF
+2017-01-24 02:06:46 - tuerSwitch received command ON
+2017-01-24 02:07:09 - raspiLED received command ON
+2017-01-24 02:15:35 - raspiLED state updated to OFF
+2017-01-24 02:15:36 - taster state updated to CLOSED
+2017-01-24 02:15:36 - LED2 state updated to OFF
+2017-01-24 02:16:02 - camSwitch received command ON
+2017-01-24 02:16:03 - LED2 received command ON

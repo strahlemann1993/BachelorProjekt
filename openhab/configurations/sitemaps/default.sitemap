@@ -1,0 +1,23 @@
+
+sitemap Tuer label="Hauptmenü"
+{
+        Frame{
+                Video url="http://96.10.1.168/mjpg/1/video.mjpg" encoding="mjpeg" label="Kamera" visibility=[camSwitch==ON]
+                Switch item=camSwitch label="Kamera" icon="camera"
+                Switch item=microSwitch label="Micro" icon="micro"
+ 		Switch item=tuerSwitch label="Tür" icon="door"
+               	Switch item=testSwitch label="test" icon="door"
+       }
+}
+
+
+
+
+
+
+
+
+
+
+
+

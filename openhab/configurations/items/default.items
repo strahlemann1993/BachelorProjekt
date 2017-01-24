@@ -1,0 +1,7 @@
+Switch camSwitch "Kamera" <camera>
+Switch microSwitch "Micro" <micro>
+Switch tuerSwitch "Tür" <door>
+Switch testSwitch "test" <door>
+Switch raspiLED { gpio="pin:27" }
+Contact taster "Taster"{ gpio="pin:22" }
+Switch LED2 {gpio="pin:4"}

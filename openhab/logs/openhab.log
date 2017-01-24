@@ -1,0 +1,497 @@
+01:45:31.809 [DEBUG] [.s.internal.SchedulerActivator:36   ] - Scheduler has been started.
+01:45:33.063 [INFO ] [uartz.impl.StdSchedulerFactory:1175 ] - Using default implementation for ThreadExecutor
+01:45:33.817 [INFO ] [rtz.core.SchedulerSignalerImpl:61   ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+01:45:33.838 [INFO ] [rg.quartz.core.QuartzScheduler:243  ] - Quartz Scheduler v.2.1.7 created.
+01:45:33.911 [INFO ] [org.quartz.simpl.RAMJobStore  :154  ] - RAMJobStore initialized.
+01:45:33.992 [INFO ] [rg.quartz.core.QuartzScheduler:268  ] - Scheduler meta-data: Quartz Scheduler (v2.1.7) 'openHAB-job-scheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 2 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+01:45:34.022 [INFO ] [uartz.impl.StdSchedulerFactory:1324 ] - Quartz scheduler 'openHAB-job-scheduler' initialized from specified file: './etc/quartz.properties'
+01:45:34.046 [INFO ] [uartz.impl.StdSchedulerFactory:1328 ] - Quartz scheduler version: 2.1.7
+01:45:34.072 [INFO ] [rg.quartz.core.QuartzScheduler:534  ] - Scheduler openHAB-job-scheduler_$_NON_CLUSTERED started.
+01:45:34.191 [DEBUG] [o.config.core.ConfigDispatcher:146  ] - Processing openHAB default configuration file '/opt/openhab/configurations/openhab_default.cfg'.
+01:45:36.025 [DEBUG] [o.config.core.ConfigDispatcher:168  ] - Processing openHAB main configuration file '/opt/openhab/configurations/openhab.cfg'.
+01:45:36.391 [DEBUG] [.o.core.internal.CoreActivator:93   ] - UUID file already exists at '/opt/openhab/webapps/static/uuid' with content '29ae3c96-baf6-4cef-9d9d-e76ecf4386f6'
+01:45:36.404 [DEBUG] [.o.core.internal.CoreActivator:115  ] - Created file '/opt/openhab/webapps/static/version' with content '1.8.3'
+01:45:36.411 [INFO ] [.o.core.internal.CoreActivator:61   ] - openHAB runtime has been started (v1.8.3).
+01:45:36.818 [DEBUG] [a.internal.AutoUpdateActivator:31   ] - AutoUpdate binding has been started.
+01:45:58.019 [DEBUG] [.p.i.PersistenceModelActivator:23   ] - Registered 'persistence' configuration parser
+01:45:58.300 [DEBUG] [.c.t.i.TransformationActivator:38   ] - Transformation Service has been started.
+01:45:58.808 [DEBUG] [m.internal.MultimediaActivator:34   ] - Multimedia I/O bundle has been started.
+01:45:59.287 [DEBUG] [.s.i.DiscoveryServiceActivator:27   ] - Discovery service has been started.
+01:45:59.352 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl:93   ] - mDNS service has been started
+01:45:59.613 [DEBUG] [.io.transport.mqtt.MqttService:123  ] - Starting MQTT Service...
+01:46:00.506 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl:53   ] - Service Discovery initialization completed.
+01:46:02.587 [DEBUG] [.i.internal.ItemModelActivator:24   ] - Registered 'item' configuration parser
+01:46:04.279 [DEBUG] [o.o.c.i.items.ItemRegistryImpl:137  ] - Item provider 'GenericItemProvider' has been added.
+01:46:14.750 [INFO ] [c.internal.ModelRepositoryImpl:80   ] - Loading model 'default.items'
+01:46:19.120 [DEBUG] [i.internal.GenericItemProvider:154  ] - Processing binding configs for items from model 'default.items'
+01:46:19.255 [DEBUG] [i.internal.GenericItemProvider:133  ] - Read items from model 'default.items'
+01:46:22.063 [DEBUG] [.o.m.s.i.SitemapModelActivator:23   ] - Registered 'sitemap' configuration parser
+01:46:23.546 [DEBUG] [io.rest.internal.RESTActivator:33   ] - REST API has been started.
+01:46:24.740 [INFO ] [org.atmosphere.util.IOUtils   :370  ] - META-INF/services/org.atmosphere.cpr.AtmosphereFramework not found in class loader
+01:46:25.299 [INFO ] [sphere.cpr.AtmosphereFramework:2601 ] - Atmosphere is using org.atmosphere.cpr.DefaultAnnotationProcessor for processing annotation
+01:46:25.314 [INFO ] [cpr.DefaultAnnotationProcessor:138  ] - AnnotationProcessor class org.atmosphere.cpr.DefaultAnnotationProcessor$BytecodeBasedAnnotationProcessor being used
+01:46:25.781 [WARN ] [cpr.DefaultAnnotationProcessor:178  ] - Unable to detect annotations. Application may fail to deploy.
+01:46:26.193 [INFO ] [sphere.cpr.AtmosphereFramework:1891 ] - Auto detecting atmosphere handlers /WEB-INF/classes/
+01:46:26.511 [INFO ] [sphere.cpr.AtmosphereFramework:639  ] - Installed AtmosphereHandler org.atmosphere.handler.ReflectorServletProcessor mapped to context-path /* and Broadcaster Class org.atmosphere.jersey.JerseyBroadcaster
+01:46:26.518 [INFO ] [sphere.cpr.AtmosphereFramework:1945 ] - Auto detecting WebSocketHandler in /WEB-INF/classes/
+01:46:26.535 [INFO ] [sphere.cpr.AtmosphereFramework:1602 ] - Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+01:46:27.247 [INFO ] [.a.h.ReflectorServletProcessor:103  ] - Installing Servlet com.sun.jersey.spi.container.servlet.ServletContainer
+01:46:29.088 [INFO ] [c.s.j.s.i.a.WebApplicationImpl:815  ] - Initiating Jersey application, version 'Jersey: 1.18.1 02/19/2014 03:28 AM'
+01:46:29.125 [INFO ] [c.s.j.s.i.a.WebApplicationImpl:826  ] - Adding the following classes declared in META-INF/services/jersey-server-components to the resource configuration:
+  class org.atmosphere.jersey.AtmosphereResourceConfigurator
+01:46:31.565 [INFO ] [j.s.i.a.DeferredResourceConfig:101  ] - Instantiated the Application class org.openhab.io.rest.RESTApplication
+01:46:33.772 [INFO ] [c.internal.ModelRepositoryImpl:80   ] - Loading model 'default.sitemap'
+01:46:53.093 [INFO ] [sphere.cpr.AtmosphereFramework:2435 ] - AtmosphereInterceptor CORS Interceptor Support will always be executed first
+01:46:53.102 [INFO ] [sphere.cpr.AtmosphereFramework:2404 ] - Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+01:46:53.113 [INFO ] [sphere.cpr.AtmosphereFramework:2404 ] - Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+01:46:53.168 [INFO ] [sphere.cpr.AtmosphereFramework:2404 ] - Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+01:46:53.186 [INFO ] [sphere.cpr.AtmosphereFramework:2404 ] - Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+01:46:53.198 [INFO ] [sphere.cpr.AtmosphereFramework:2404 ] - Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+01:46:53.222 [INFO ] [sphere.cpr.AtmosphereFramework:2404 ] - Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+01:46:53.233 [INFO ] [sphere.cpr.AtmosphereFramework:2404 ] - Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+01:46:53.283 [INFO ] [sphere.cpr.AtmosphereFramework:935  ] - Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+01:46:53.299 [WARN ] [sphere.cpr.AtmosphereFramework:941  ] - No BroadcasterCache configured. Broadcasted message between client reconnection will be LOST. It is recommended to configure the org.atmosphere.cache.UUIDBroadcasterCache
+01:46:53.307 [INFO ] [sphere.cpr.AtmosphereFramework:949  ] - Default Broadcaster Class: org.atmosphere.jersey.JerseyBroadcaster
+01:46:53.319 [INFO ] [sphere.cpr.AtmosphereFramework:950  ] - Broadcaster Polling Wait Time 100
+01:46:53.326 [INFO ] [sphere.cpr.AtmosphereFramework:951  ] - Shared ExecutorService supported: true
+01:46:53.334 [INFO ] [sphere.cpr.AtmosphereFramework:958  ] - Messaging Thread Pool Size: 10
+01:46:53.351 [INFO ] [sphere.cpr.AtmosphereFramework:968  ] - Async I/O Thread Pool Size: 10
+01:46:53.368 [INFO ] [sphere.cpr.AtmosphereFramework:979  ] - Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+01:46:53.379 [INFO ] [sphere.cpr.AtmosphereFramework:980  ] - Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+01:46:53.387 [INFO ] [sphere.cpr.AtmosphereFramework:990  ] - Invoke AtmosphereInterceptor on WebSocket message true
+01:46:53.394 [INFO ] [sphere.cpr.AtmosphereFramework:991  ] - HttpSession supported: false
+01:46:53.401 [INFO ] [sphere.cpr.AtmosphereFramework:993  ] - Atmosphere is using DefaultAtmosphereObjectFactory for dependency injection and object creation
+01:46:53.410 [INFO ] [sphere.cpr.AtmosphereFramework:994  ] - Atmosphere is using async support: org.atmosphere.container.JettyAsyncSupportWithWebSocket running under container: jetty/8.1.3.v20120522 with WebSocket enabled.
+01:46:53.439 [INFO ] [sphere.cpr.AtmosphereFramework:996  ] - Atmosphere Framework 2.2.5 started.
+01:46:53.457 [INFO ] [sphere.cpr.AtmosphereFramework:998  ] - 
+
+	For Atmosphere Framework Commercial Support, visit 
+	http://www.async-io.org/ or send an email to support@async-io.org
+
+01:46:53.486 [INFO ] [penhab.io.rest.RESTApplication:144  ] - Started REST API at /rest
+01:46:53.534 [DEBUG] [o.o.i.s.i.DiscoveryServiceImpl:66   ] - Registering new service _openhab-server._tcp.local. at port 8080
+01:46:56.329 [DEBUG] [o.o.i.s.i.DiscoveryServiceImpl:66   ] - Registering new service _openhab-server-ssl._tcp.local. at port 8443
+01:47:00.056 [INFO ] [.o.u.w.i.servlet.WebAppServlet:80   ] - Started Classic UI at /classicui/openhab.app
+01:47:05.371 [DEBUG] [.r.internal.RuleModelActivator:42   ] - Registered 'rules' configuration parser
+01:47:05.527 [DEBUG] [m.r.internal.engine.RuleEngine:77   ] - Started rule engine
+01:47:08.870 [INFO ] [c.internal.ModelRepositoryImpl:80   ] - Loading model 'tuer.rules'
+01:47:12.284 [DEBUG] [.o.i.o.i.CloudServiceActivator:28   ] - CloudService has been started.
+01:47:12.370 [DEBUG] [.i.o.internal.CloudServiceImpl:379  ] - setEventPublisher
+01:47:12.393 [DEBUG] [.i.o.internal.CloudServiceImpl:152  ] - remoteAccessEnabled is not set, keeping value 'true'
+01:47:12.427 [DEBUG] [.i.o.internal.CloudServiceImpl:166  ] - cloudBaseUrl set to 'https://myopenhab.org/'
+01:47:12.450 [DEBUG] [.i.o.internal.CloudServiceImpl:266  ] - UUID file found at '/opt/openhab/webapps/static/uuid' with content '29ae3c96-baf6-4cef-9d9d-e76ecf4386f6'
+01:47:12.470 [DEBUG] [.i.o.internal.CloudServiceImpl:318  ] - Secret file already exists at '/opt/openhab/webapps/static/secret' with content 'pnA0RVe5zZaE7JG5qvO2'
+01:47:12.487 [DEBUG] [.i.o.internal.CloudServiceImpl:189  ] - UUID = 29ae3c96-baf6-4cef-9d9d-e76ecf4386f6, secret = pnA0RVe5zZaE7JG5qvO2
+01:47:12.676 [DEBUG] [.i.o.internal.CloudServiceImpl:266  ] - UUID file found at '/opt/openhab/webapps/static/uuid' with content '29ae3c96-baf6-4cef-9d9d-e76ecf4386f6'
+01:47:12.690 [DEBUG] [.i.o.internal.CloudServiceImpl:318  ] - Secret file already exists at '/opt/openhab/webapps/static/secret' with content 'pnA0RVe5zZaE7JG5qvO2'
+01:47:12.708 [DEBUG] [.i.o.internal.CloudServiceImpl:252  ] - Version file found at '/opt/openhab/webapps/static/version' with content '1.8.3'
+01:47:13.874 [DEBUG] [o.o.i.o.internal.CloudClient  :149  ] - Manager.EVENT_TRANSPORT
+01:47:13.997 [DEBUG] [o.o.b.g.i.GPIOBindingActivator:30   ] - GPIO binding has been started.
+01:47:14.725 [DEBUG] [i.internal.GenericItemProvider:341  ] - Start processing binding configuration of Item 'raspiLED (Type=SwitchItem, State=Uninitialized)' with 'GPIOGenericBindingProvider' reader.
+01:47:15.067 [DEBUG] [i.internal.GenericItemProvider:341  ] - Start processing binding configuration of Item 'taster (Type=ContactItem, State=Uninitialized)' with 'GPIOGenericBindingProvider' reader.
+01:47:15.090 [DEBUG] [i.internal.GenericItemProvider:341  ] - Start processing binding configuration of Item 'LED2 (Type=SwitchItem, State=Uninitialized)' with 'GPIOGenericBindingProvider' reader.
+01:47:17.931 [DEBUG] [m.r.internal.engine.RuleEngine:305  ] - Executing rule 'klingeln'
+01:47:18.814 [DEBUG] [o.o.i.o.internal.CloudClient  :154  ] - Transport.EVENT_REQUEST_HEADERS
+01:47:24.204 [DEBUG] [riptExtensionClassNameProvider:63   ] - Script actions have changed: TransformationActionService, HTTPActionService, CloudServiceImpl, AudioActionService, ExecActionService, PingActionService, 
+01:47:28.140 [DEBUG] [o.o.i.o.internal.CloudClient  :149  ] - Manager.EVENT_TRANSPORT
+01:47:28.246 [DEBUG] [o.o.i.o.internal.CloudClient  :154  ] - Transport.EVENT_REQUEST_HEADERS
+01:47:32.533 [DEBUG] [o.o.i.o.internal.CloudClient  :154  ] - Transport.EVENT_REQUEST_HEADERS
+01:47:32.757 [DEBUG] [o.o.i.o.internal.CloudClient  :168  ] - Socket.IO connected
+01:47:32.777 [INFO ] [o.o.i.o.internal.CloudClient  :235  ] - Connected to the openHAB Cloud service (UUID = 29ae3c96-baf6-4cef-9d9d-e76ecf4386f6, local base URL = http://localhost:8080)
+01:47:33.252 [DEBUG] [o.o.i.o.internal.CloudClient  :154  ] - Transport.EVENT_REQUEST_HEADERS
+01:47:36.626 [INFO ] [org.openhab.model.script.test :53   ] - GPIO 22 changed to CLOSED
+01:47:37.639 [DEBUG] [.i.o.internal.CloudServiceImpl:109  ] - Sending broadcast message 'GPIO 22 changed to CLOSED'
+01:47:39.205 [DEBUG] [m.r.internal.engine.RuleEngine:305  ] - Executing rule 'streamStarten'
+01:47:39.853 [DEBUG] [.i.o.internal.CloudServiceImpl:109  ] - Sending broadcast message 'Stream gestartet'
+01:47:41.641 [DEBUG] [.o.b.gpio.internal.GPIOBinding:89   ] - Send command 1 to GPIO 4
+01:48:28.553 [DEBUG] [m.r.internal.engine.RuleEngine:305  ] - Executing rule 'tuerOeffnen'
+01:48:29.633 [DEBUG] [.i.o.internal.CloudServiceImpl:109  ] - Sending broadcast message 'Tür geöffnet'
+01:48:32.607 [DEBUG] [.o.b.gpio.internal.GPIOBinding:89   ] - Send command 1 to GPIO 27
+01:49:15.079 [DEBUG] [m.r.internal.engine.RuleEngine:305  ] - Executing rule 'tuerSchliessen'
+01:49:15.961 [DEBUG] [.i.o.internal.CloudServiceImpl:109  ] - Sending broadcast message 'Tür geschlossen'
+01:49:18.589 [DEBUG] [.o.b.gpio.internal.GPIOBinding:92   ] - Send command 0 to GPIO 27
+01:51:07.725 [INFO ] [c.internal.ModelRepositoryImpl:98   ] - Refreshing model 'tuer.rules'
+01:52:00.072 [INFO ] [penhab.io.rest.RESTApplication:160  ] - Stopped REST API
+01:52:00.088 [DEBUG] [o.o.i.s.i.DiscoveryServiceImpl:80   ] - Unregistering service _openhab-server._tcp.local. at port 8080
+01:52:02.197 [DEBUG] [o.o.i.s.i.DiscoveryServiceImpl:80   ] - Unregistering service _openhab-server-ssl._tcp.local. at port 8443
+01:53:48.013 [DEBUG] [o.o.i.o.internal.CloudClient  :266  ] - on(): request
+01:53:48.038 [DEBUG] [o.o.i.o.internal.CloudClient  :286  ] - Got request 328604
+01:53:48.054 [DEBUG] [o.o.i.o.internal.CloudClient  :295  ] - {"content-length":"0","host":"myopenhab.org","accept-encoding":"gzip","accept":"application/xml","user-agent":"openhab-cloud/0.0.1"}
+01:53:48.078 [DEBUG] [o.o.i.o.internal.CloudClient  :318  ] - Request method is GET
+01:53:48.243 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header content-length = 0
+01:53:48.259 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header host = myopenhab.org
+01:53:48.275 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header accept-encoding = gzip
+01:53:48.286 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header accept = application/xml
+01:53:48.299 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header user-agent = openhab-cloud/0.0.1
+01:53:48.457 [ERROR] [o.o.i.o.internal.CloudClient  :655  ] - Connection refused
+01:53:48.822 [DEBUG] [o.o.i.o.internal.CloudClient  :266  ] - on(): request
+01:53:48.836 [DEBUG] [o.o.i.o.internal.CloudClient  :286  ] - Got request 328606
+01:53:48.848 [DEBUG] [o.o.i.o.internal.CloudClient  :295  ] - {"content-length":"0","host":"myopenhab.org","accept-encoding":"gzip","accept":"application/xml","user-agent":"openhab-cloud/0.0.1"}
+01:53:48.860 [DEBUG] [o.o.i.o.internal.CloudClient  :318  ] - Request method is GET
+01:53:48.875 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header content-length = 0
+01:53:48.886 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header host = myopenhab.org
+01:53:48.897 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header accept-encoding = gzip
+01:53:48.907 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header accept = application/xml
+01:53:48.921 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header user-agent = openhab-cloud/0.0.1
+01:53:48.944 [ERROR] [o.o.i.o.internal.CloudClient  :655  ] - Connection refused
+01:53:57.868 [DEBUG] [o.o.i.o.internal.CloudClient  :266  ] - on(): request
+01:53:57.875 [DEBUG] [o.o.i.o.internal.CloudClient  :286  ] - Got request 328621
+01:53:57.882 [DEBUG] [o.o.i.o.internal.CloudClient  :295  ] - {"content-length":"0","host":"myopenhab.org","accept-encoding":"gzip","user-agent":"openhab-cloud/0.0.1"}
+01:53:57.889 [DEBUG] [o.o.i.o.internal.CloudClient  :318  ] - Request method is GET
+01:53:57.895 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header content-length = 0
+01:53:57.901 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header host = myopenhab.org
+01:53:57.908 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header accept-encoding = gzip
+01:53:57.924 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header user-agent = openhab-cloud/0.0.1
+01:53:57.934 [ERROR] [o.o.i.o.internal.CloudClient  :655  ] - Connection refused
+01:53:58.190 [DEBUG] [o.o.i.o.internal.CloudClient  :266  ] - on(): request
+01:53:58.198 [DEBUG] [o.o.i.o.internal.CloudClient  :286  ] - Got request 328622
+01:53:58.212 [DEBUG] [o.o.i.o.internal.CloudClient  :295  ] - {"content-length":"0","host":"myopenhab.org","accept-encoding":"gzip","accept":"application/xml","user-agent":"openhab-cloud/0.0.1"}
+01:53:58.227 [DEBUG] [o.o.i.o.internal.CloudClient  :318  ] - Request method is GET
+01:53:58.237 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header content-length = 0
+01:53:58.250 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header host = myopenhab.org
+01:53:58.256 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header accept-encoding = gzip
+01:53:58.263 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header accept = application/xml
+01:53:58.269 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header user-agent = openhab-cloud/0.0.1
+01:53:58.281 [ERROR] [o.o.i.o.internal.CloudClient  :655  ] - Connection refused
+01:54:17.625 [DEBUG] [o.o.i.o.internal.CloudClient  :266  ] - on(): request
+01:54:17.647 [DEBUG] [o.o.i.o.internal.CloudClient  :286  ] - Got request 328644
+01:54:17.663 [DEBUG] [o.o.i.o.internal.CloudClient  :295  ] - {"content-length":"0","host":"myopenhab.org","accept-encoding":"gzip","accept":"application/xml","user-agent":"openhab-cloud/0.0.1"}
+01:54:17.677 [DEBUG] [o.o.i.o.internal.CloudClient  :318  ] - Request method is GET
+01:54:17.697 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header content-length = 0
+01:54:17.703 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header host = myopenhab.org
+01:54:17.717 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header accept-encoding = gzip
+01:54:17.727 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header accept = application/xml
+01:54:17.738 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header user-agent = openhab-cloud/0.0.1
+01:54:17.760 [ERROR] [o.o.i.o.internal.CloudClient  :655  ] - Connection refused
+01:55:01.543 [INFO ] [c.internal.ModelRepositoryImpl:98   ] - Refreshing model 'tuer.rules'
+01:55:55.088 [DEBUG] [o.o.i.o.internal.CloudClient  :266  ] - on(): request
+01:55:55.096 [DEBUG] [o.o.i.o.internal.CloudClient  :286  ] - Got request 328857
+01:55:55.102 [DEBUG] [o.o.i.o.internal.CloudClient  :295  ] - {"content-length":"0","host":"myopenhab.org","accept-encoding":"gzip","accept":"application/xml","user-agent":"openhab-cloud/0.0.1"}
+01:55:55.109 [DEBUG] [o.o.i.o.internal.CloudClient  :318  ] - Request method is GET
+01:55:55.127 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header content-length = 0
+01:55:55.137 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header host = myopenhab.org
+01:55:55.148 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header accept-encoding = gzip
+01:55:55.158 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header accept = application/xml
+01:55:55.184 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header user-agent = openhab-cloud/0.0.1
+01:55:55.207 [ERROR] [o.o.i.o.internal.CloudClient  :655  ] - Connection refused
+01:55:55.258 [DEBUG] [o.o.i.o.internal.CloudClient  :266  ] - on(): request
+01:55:55.264 [DEBUG] [o.o.i.o.internal.CloudClient  :286  ] - Got request 328858
+01:55:55.270 [DEBUG] [o.o.i.o.internal.CloudClient  :295  ] - {"content-length":"0","host":"myopenhab.org","accept-encoding":"gzip","accept":"application/xml","user-agent":"openhab-cloud/0.0.1"}
+01:55:55.277 [DEBUG] [o.o.i.o.internal.CloudClient  :318  ] - Request method is GET
+01:55:55.284 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header content-length = 0
+01:55:55.294 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header host = myopenhab.org
+01:55:55.300 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header accept-encoding = gzip
+01:55:55.307 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header accept = application/xml
+01:55:55.313 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header user-agent = openhab-cloud/0.0.1
+01:55:55.322 [ERROR] [o.o.i.o.internal.CloudClient  :655  ] - Connection refused
+01:55:55.794 [DEBUG] [o.o.i.o.internal.CloudClient  :266  ] - on(): request
+01:55:55.802 [DEBUG] [o.o.i.o.internal.CloudClient  :286  ] - Got request 328862
+01:55:55.809 [DEBUG] [o.o.i.o.internal.CloudClient  :295  ] - {"content-length":"0","host":"myopenhab.org","accept-encoding":"gzip","accept":"application/xml","user-agent":"openhab-cloud/0.0.1"}
+01:55:55.817 [DEBUG] [o.o.i.o.internal.CloudClient  :318  ] - Request method is GET
+01:55:55.827 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header content-length = 0
+01:55:55.833 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header host = myopenhab.org
+01:55:55.839 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header accept-encoding = gzip
+01:55:55.846 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header accept = application/xml
+01:55:55.852 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header user-agent = openhab-cloud/0.0.1
+01:55:55.870 [ERROR] [o.o.i.o.internal.CloudClient  :655  ] - Connection refused
+01:55:56.182 [DEBUG] [o.o.i.o.internal.CloudClient  :266  ] - on(): request
+01:55:56.199 [DEBUG] [o.o.i.o.internal.CloudClient  :286  ] - Got request 328863
+01:55:56.215 [DEBUG] [o.o.i.o.internal.CloudClient  :295  ] - {"content-length":"0","host":"myopenhab.org","accept-encoding":"gzip","accept":"application/xml","user-agent":"openhab-cloud/0.0.1"}
+01:55:56.227 [DEBUG] [o.o.i.o.internal.CloudClient  :318  ] - Request method is GET
+01:55:56.237 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header content-length = 0
+01:55:56.250 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header host = myopenhab.org
+01:55:56.265 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header accept-encoding = gzip
+01:55:56.277 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header accept = application/xml
+01:55:56.287 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header user-agent = openhab-cloud/0.0.1
+01:55:56.327 [ERROR] [o.o.i.o.internal.CloudClient  :655  ] - Connection refused
+01:55:56.406 [DEBUG] [o.o.i.o.internal.CloudClient  :266  ] - on(): request
+01:55:56.428 [DEBUG] [o.o.i.o.internal.CloudClient  :286  ] - Got request 328864
+01:55:56.434 [DEBUG] [o.o.i.o.internal.CloudClient  :295  ] - {"content-length":"0","host":"myopenhab.org","accept-encoding":"gzip","accept":"application/xml","user-agent":"openhab-cloud/0.0.1"}
+01:55:56.447 [DEBUG] [o.o.i.o.internal.CloudClient  :318  ] - Request method is GET
+01:55:56.457 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header content-length = 0
+01:55:56.468 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header host = myopenhab.org
+01:55:56.487 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header accept-encoding = gzip
+01:55:56.493 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header accept = application/xml
+01:55:56.527 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header user-agent = openhab-cloud/0.0.1
+01:55:56.552 [ERROR] [o.o.i.o.internal.CloudClient  :655  ] - Connection refused
+01:55:57.047 [DEBUG] [o.o.i.o.internal.CloudClient  :266  ] - on(): request
+01:55:57.059 [DEBUG] [o.o.i.o.internal.CloudClient  :286  ] - Got request 328870
+01:55:57.074 [DEBUG] [o.o.i.o.internal.CloudClient  :295  ] - {"content-length":"0","host":"myopenhab.org","accept-encoding":"gzip","accept":"application/xml","user-agent":"openhab-cloud/0.0.1"}
+01:55:57.080 [DEBUG] [o.o.i.o.internal.CloudClient  :318  ] - Request method is GET
+01:55:57.087 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header content-length = 0
+01:55:57.096 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header host = myopenhab.org
+01:55:57.105 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header accept-encoding = gzip
+01:55:57.111 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header accept = application/xml
+01:55:57.117 [DEBUG] [o.o.i.o.internal.CloudClient  :546  ] - Jetty set header user-agent = openhab-cloud/0.0.1
+01:55:57.128 [ERROR] [o.o.i.o.internal.CloudClient  :655  ] - Connection refused
+01:56:02.210 [INFO ] [c.internal.ModelRepositoryImpl:98   ] - Refreshing model 'tuer.rules'
+02:00:26.333 [DEBUG] [.s.internal.SchedulerActivator:36   ] - Scheduler has been started.
+02:00:28.001 [INFO ] [uartz.impl.StdSchedulerFactory:1175 ] - Using default implementation for ThreadExecutor
+02:00:29.043 [INFO ] [rtz.core.SchedulerSignalerImpl:61   ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+02:00:29.066 [INFO ] [rg.quartz.core.QuartzScheduler:243  ] - Quartz Scheduler v.2.1.7 created.
+02:00:29.121 [INFO ] [org.quartz.simpl.RAMJobStore  :154  ] - RAMJobStore initialized.
+02:00:29.174 [INFO ] [rg.quartz.core.QuartzScheduler:268  ] - Scheduler meta-data: Quartz Scheduler (v2.1.7) 'openHAB-job-scheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 2 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+02:00:29.199 [INFO ] [uartz.impl.StdSchedulerFactory:1324 ] - Quartz scheduler 'openHAB-job-scheduler' initialized from specified file: './etc/quartz.properties'
+02:00:29.215 [INFO ] [uartz.impl.StdSchedulerFactory:1328 ] - Quartz scheduler version: 2.1.7
+02:00:29.240 [INFO ] [rg.quartz.core.QuartzScheduler:534  ] - Scheduler openHAB-job-scheduler_$_NON_CLUSTERED started.
+02:00:29.380 [DEBUG] [o.config.core.ConfigDispatcher:146  ] - Processing openHAB default configuration file '/opt/openhab/configurations/openhab_default.cfg'.
+02:00:32.068 [DEBUG] [o.config.core.ConfigDispatcher:168  ] - Processing openHAB main configuration file '/opt/openhab/configurations/openhab.cfg'.
+02:00:40.304 [DEBUG] [.o.core.internal.CoreActivator:93   ] - UUID file already exists at '/opt/openhab/webapps/static/uuid' with content '29ae3c96-baf6-4cef-9d9d-e76ecf4386f6'
+02:00:40.349 [DEBUG] [.o.core.internal.CoreActivator:115  ] - Created file '/opt/openhab/webapps/static/version' with content '1.8.3'
+02:00:40.367 [INFO ] [.o.core.internal.CoreActivator:61   ] - openHAB runtime has been started (v1.8.3).
+02:00:41.434 [DEBUG] [a.internal.AutoUpdateActivator:31   ] - AutoUpdate binding has been started.
+02:01:52.313 [DEBUG] [.p.i.PersistenceModelActivator:23   ] - Registered 'persistence' configuration parser
+02:01:53.199 [DEBUG] [.c.t.i.TransformationActivator:38   ] - Transformation Service has been started.
+02:01:55.641 [DEBUG] [m.internal.MultimediaActivator:34   ] - Multimedia I/O bundle has been started.
+02:01:59.673 [DEBUG] [.s.i.DiscoveryServiceActivator:27   ] - Discovery service has been started.
+02:01:59.795 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl:93   ] - mDNS service has been started
+02:02:04.813 [DEBUG] [.io.transport.mqtt.MqttService:123  ] - Starting MQTT Service...
+02:02:05.406 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl:53   ] - Service Discovery initialization completed.
+02:02:13.051 [DEBUG] [.i.internal.ItemModelActivator:24   ] - Registered 'item' configuration parser
+02:02:25.004 [INFO ] [c.internal.ModelRepositoryImpl:80   ] - Loading model 'default.items'
+02:02:29.912 [DEBUG] [i.internal.GenericItemProvider:154  ] - Processing binding configs for items from model 'default.items'
+02:02:29.921 [DEBUG] [i.internal.GenericItemProvider:419  ] - Couldn't find ItemFactory for item 'camSwitch' of type 'Switch'
+02:02:29.928 [DEBUG] [i.internal.GenericItemProvider:419  ] - Couldn't find ItemFactory for item 'microSwitch' of type 'Switch'
+02:02:29.934 [DEBUG] [i.internal.GenericItemProvider:419  ] - Couldn't find ItemFactory for item 'tuerSwitch' of type 'Switch'
+02:02:29.940 [DEBUG] [i.internal.GenericItemProvider:419  ] - Couldn't find ItemFactory for item 'testSwitch' of type 'Switch'
+02:02:29.954 [DEBUG] [i.internal.GenericItemProvider:419  ] - Couldn't find ItemFactory for item 'raspiLED' of type 'Switch'
+02:02:29.960 [DEBUG] [i.internal.GenericItemProvider:419  ] - Couldn't find ItemFactory for item 'taster' of type 'Contact'
+02:02:29.966 [DEBUG] [i.internal.GenericItemProvider:419  ] - Couldn't find ItemFactory for item 'LED2' of type 'Switch'
+02:02:30.055 [DEBUG] [i.internal.GenericItemProvider:133  ] - Read items from model 'default.items'
+02:02:30.086 [DEBUG] [o.o.c.i.items.ItemRegistryImpl:137  ] - Item provider 'GenericItemProvider' has been added.
+02:02:30.101 [DEBUG] [i.internal.GenericItemProvider:133  ] - Read items from model 'default.items'
+02:02:58.443 [DEBUG] [.o.m.s.i.SitemapModelActivator:23   ] - Registered 'sitemap' configuration parser
+02:03:04.260 [INFO ] [c.internal.ModelRepositoryImpl:80   ] - Loading model 'default.sitemap'
+02:03:06.116 [DEBUG] [io.rest.internal.RESTActivator:33   ] - REST API has been started.
+02:03:08.189 [INFO ] [org.atmosphere.util.IOUtils   :370  ] - META-INF/services/org.atmosphere.cpr.AtmosphereFramework not found in class loader
+02:03:09.051 [INFO ] [sphere.cpr.AtmosphereFramework:2601 ] - Atmosphere is using org.atmosphere.cpr.DefaultAnnotationProcessor for processing annotation
+02:03:09.073 [INFO ] [cpr.DefaultAnnotationProcessor:138  ] - AnnotationProcessor class org.atmosphere.cpr.DefaultAnnotationProcessor$BytecodeBasedAnnotationProcessor being used
+02:03:10.280 [WARN ] [cpr.DefaultAnnotationProcessor:178  ] - Unable to detect annotations. Application may fail to deploy.
+02:03:11.662 [INFO ] [sphere.cpr.AtmosphereFramework:1891 ] - Auto detecting atmosphere handlers /WEB-INF/classes/
+02:03:18.597 [INFO ] [sphere.cpr.AtmosphereFramework:639  ] - Installed AtmosphereHandler org.atmosphere.handler.ReflectorServletProcessor mapped to context-path /* and Broadcaster Class org.atmosphere.jersey.JerseyBroadcaster
+02:03:18.605 [INFO ] [sphere.cpr.AtmosphereFramework:1945 ] - Auto detecting WebSocketHandler in /WEB-INF/classes/
+02:03:18.625 [INFO ] [sphere.cpr.AtmosphereFramework:1602 ] - Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+02:03:19.608 [INFO ] [.a.h.ReflectorServletProcessor:103  ] - Installing Servlet com.sun.jersey.spi.container.servlet.ServletContainer
+02:03:25.305 [INFO ] [c.s.j.s.i.a.WebApplicationImpl:815  ] - Initiating Jersey application, version 'Jersey: 1.18.1 02/19/2014 03:28 AM'
+02:03:25.342 [INFO ] [c.s.j.s.i.a.WebApplicationImpl:826  ] - Adding the following classes declared in META-INF/services/jersey-server-components to the resource configuration:
+  class org.atmosphere.jersey.AtmosphereResourceConfigurator
+02:03:27.042 [INFO ] [j.s.i.a.DeferredResourceConfig:101  ] - Instantiated the Application class org.openhab.io.rest.RESTApplication
+02:03:52.598 [INFO ] [sphere.cpr.AtmosphereFramework:2435 ] - AtmosphereInterceptor CORS Interceptor Support will always be executed first
+02:03:55.472 [INFO ] [sphere.cpr.AtmosphereFramework:2404 ] - Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+02:03:55.482 [INFO ] [sphere.cpr.AtmosphereFramework:2404 ] - Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+02:03:55.512 [INFO ] [sphere.cpr.AtmosphereFramework:2404 ] - Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+02:03:55.535 [INFO ] [sphere.cpr.AtmosphereFramework:2404 ] - Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+02:03:55.547 [INFO ] [sphere.cpr.AtmosphereFramework:2404 ] - Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+02:03:55.592 [INFO ] [sphere.cpr.AtmosphereFramework:2404 ] - Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+02:03:55.604 [INFO ] [sphere.cpr.AtmosphereFramework:2404 ] - Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+02:03:55.656 [INFO ] [sphere.cpr.AtmosphereFramework:935  ] - Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+02:03:55.673 [WARN ] [sphere.cpr.AtmosphereFramework:941  ] - No BroadcasterCache configured. Broadcasted message between client reconnection will be LOST. It is recommended to configure the org.atmosphere.cache.UUIDBroadcasterCache
+02:03:55.680 [INFO ] [sphere.cpr.AtmosphereFramework:949  ] - Default Broadcaster Class: org.atmosphere.jersey.JerseyBroadcaster
+02:03:55.687 [INFO ] [sphere.cpr.AtmosphereFramework:950  ] - Broadcaster Polling Wait Time 100
+02:03:55.694 [INFO ] [sphere.cpr.AtmosphereFramework:951  ] - Shared ExecutorService supported: true
+02:03:55.703 [INFO ] [sphere.cpr.AtmosphereFramework:958  ] - Messaging Thread Pool Size: 10
+02:03:55.710 [INFO ] [sphere.cpr.AtmosphereFramework:968  ] - Async I/O Thread Pool Size: 10
+02:03:55.717 [INFO ] [sphere.cpr.AtmosphereFramework:979  ] - Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+02:03:55.737 [INFO ] [sphere.cpr.AtmosphereFramework:980  ] - Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+02:03:55.750 [INFO ] [sphere.cpr.AtmosphereFramework:990  ] - Invoke AtmosphereInterceptor on WebSocket message true
+02:03:55.761 [INFO ] [sphere.cpr.AtmosphereFramework:991  ] - HttpSession supported: false
+02:03:55.768 [INFO ] [sphere.cpr.AtmosphereFramework:993  ] - Atmosphere is using DefaultAtmosphereObjectFactory for dependency injection and object creation
+02:03:55.777 [INFO ] [sphere.cpr.AtmosphereFramework:994  ] - Atmosphere is using async support: org.atmosphere.container.JettyAsyncSupportWithWebSocket running under container: jetty/8.1.3.v20120522 with WebSocket enabled.
+02:03:55.798 [INFO ] [sphere.cpr.AtmosphereFramework:996  ] - Atmosphere Framework 2.2.5 started.
+02:03:55.805 [INFO ] [sphere.cpr.AtmosphereFramework:998  ] - 
+
+	For Atmosphere Framework Commercial Support, visit 
+	http://www.async-io.org/ or send an email to support@async-io.org
+
+02:03:55.821 [INFO ] [penhab.io.rest.RESTApplication:144  ] - Started REST API at /rest
+02:03:55.842 [DEBUG] [o.o.i.s.i.DiscoveryServiceImpl:66   ] - Registering new service _openhab-server._tcp.local. at port 8080
+02:03:58.397 [DEBUG] [o.o.i.s.i.DiscoveryServiceImpl:66   ] - Registering new service _openhab-server-ssl._tcp.local. at port 8443
+02:04:05.538 [INFO ] [.o.u.w.i.servlet.WebAppServlet:80   ] - Started Classic UI at /classicui/openhab.app
+02:04:15.674 [DEBUG] [.r.internal.RuleModelActivator:42   ] - Registered 'rules' configuration parser
+02:04:16.017 [DEBUG] [m.r.internal.engine.RuleEngine:77   ] - Started rule engine
+02:04:21.765 [INFO ] [c.internal.ModelRepositoryImpl:80   ] - Loading model 'tuer.rules'
+02:04:29.432 [DEBUG] [.o.i.o.i.CloudServiceActivator:28   ] - CloudService has been started.
+02:04:29.561 [DEBUG] [.i.o.internal.CloudServiceImpl:379  ] - setEventPublisher
+02:04:29.621 [DEBUG] [.i.o.internal.CloudServiceImpl:152  ] - remoteAccessEnabled is not set, keeping value 'true'
+02:04:29.642 [DEBUG] [.i.o.internal.CloudServiceImpl:166  ] - cloudBaseUrl set to 'https://myopenhab.org/'
+02:04:29.688 [DEBUG] [.i.o.internal.CloudServiceImpl:266  ] - UUID file found at '/opt/openhab/webapps/static/uuid' with content '29ae3c96-baf6-4cef-9d9d-e76ecf4386f6'
+02:04:29.750 [DEBUG] [.i.o.internal.CloudServiceImpl:318  ] - Secret file already exists at '/opt/openhab/webapps/static/secret' with content 'pnA0RVe5zZaE7JG5qvO2'
+02:04:29.770 [DEBUG] [.i.o.internal.CloudServiceImpl:189  ] - UUID = 29ae3c96-baf6-4cef-9d9d-e76ecf4386f6, secret = pnA0RVe5zZaE7JG5qvO2
+02:04:29.966 [DEBUG] [.i.o.internal.CloudServiceImpl:266  ] - UUID file found at '/opt/openhab/webapps/static/uuid' with content '29ae3c96-baf6-4cef-9d9d-e76ecf4386f6'
+02:04:29.974 [DEBUG] [.i.o.internal.CloudServiceImpl:318  ] - Secret file already exists at '/opt/openhab/webapps/static/secret' with content 'pnA0RVe5zZaE7JG5qvO2'
+02:04:29.996 [DEBUG] [.i.o.internal.CloudServiceImpl:252  ] - Version file found at '/opt/openhab/webapps/static/version' with content '1.8.3'
+02:04:30.948 [DEBUG] [o.o.i.o.internal.CloudClient  :149  ] - Manager.EVENT_TRANSPORT
+02:04:31.106 [DEBUG] [o.o.b.g.i.GPIOBindingActivator:30   ] - GPIO binding has been started.
+02:04:31.964 [DEBUG] [i.internal.GenericItemProvider:341  ] - Start processing binding configuration of Item 'raspiLED (Type=SwitchItem, State=Uninitialized)' with 'GPIOGenericBindingProvider' reader.
+02:04:32.078 [DEBUG] [i.internal.GenericItemProvider:341  ] - Start processing binding configuration of Item 'taster (Type=ContactItem, State=Uninitialized)' with 'GPIOGenericBindingProvider' reader.
+02:04:32.138 [DEBUG] [i.internal.GenericItemProvider:341  ] - Start processing binding configuration of Item 'LED2 (Type=SwitchItem, State=Uninitialized)' with 'GPIOGenericBindingProvider' reader.
+02:04:32.859 [ERROR] [.o.b.gpio.internal.GPIOBinding:363  ] - Error occured while creating backend object for item raspiLED, exception: Device or resource busy
+02:04:32.888 [ERROR] [.o.b.gpio.internal.GPIOBinding:363  ] - Error occured while creating backend object for item taster, exception: Device or resource busy
+02:04:32.948 [ERROR] [.o.b.gpio.internal.GPIOBinding:363  ] - Error occured while creating backend object for item LED2, exception: Device or resource busy
+02:04:41.696 [DEBUG] [o.o.i.o.internal.CloudClient  :154  ] - Transport.EVENT_REQUEST_HEADERS
+02:04:51.750 [DEBUG] [o.o.i.o.internal.CloudClient  :149  ] - Manager.EVENT_TRANSPORT
+02:04:51.764 [DEBUG] [o.o.i.o.internal.CloudClient  :154  ] - Transport.EVENT_REQUEST_HEADERS
+02:04:52.057 [DEBUG] [o.o.i.o.internal.CloudClient  :149  ] - Manager.EVENT_TRANSPORT
+02:04:52.105 [DEBUG] [o.o.i.o.internal.CloudClient  :154  ] - Transport.EVENT_REQUEST_HEADERS
+02:04:53.632 [DEBUG] [o.o.i.o.internal.CloudClient  :154  ] - Transport.EVENT_REQUEST_HEADERS
+02:04:53.811 [DEBUG] [o.o.i.o.internal.CloudClient  :168  ] - Socket.IO connected
+02:04:53.822 [INFO ] [o.o.i.o.internal.CloudClient  :235  ] - Connected to the openHAB Cloud service (UUID = 29ae3c96-baf6-4cef-9d9d-e76ecf4386f6, local base URL = http://localhost:8080)
+02:04:54.237 [DEBUG] [o.o.i.o.internal.CloudClient  :154  ] - Transport.EVENT_REQUEST_HEADERS
+02:06:46.419 [DEBUG] [m.r.internal.engine.RuleEngine:305  ] - Executing rule 'tuerOeffnen'
+02:06:57.256 [DEBUG] [riptExtensionClassNameProvider:63   ] - Script actions have changed: PingActionService, HTTPActionService, CloudServiceImpl, TransformationActionService, AudioActionService, ExecActionService, 
+02:07:04.487 [DEBUG] [.i.o.internal.CloudServiceImpl:109  ] - Sending broadcast message 'Tür geöffnet'
+02:08:40.616 [INFO ] [penhab.io.rest.RESTApplication:160  ] - Stopped REST API
+02:08:40.632 [DEBUG] [o.o.i.s.i.DiscoveryServiceImpl:80   ] - Unregistering service _openhab-server._tcp.local. at port 8080
+02:08:42.671 [DEBUG] [o.o.i.s.i.DiscoveryServiceImpl:80   ] - Unregistering service _openhab-server-ssl._tcp.local. at port 8443
+02:08:46.032 [DEBUG] [io.rest.internal.RESTActivator:41   ] - REST API has been stopped.
+02:08:46.541 [INFO ] [o.o.i.o.internal.CloudClient  :490  ] - Shutting down openHAB Cloud service connection
+02:08:46.709 [DEBUG] [.i.o.internal.CloudServiceImpl:144  ] - openHAB Cloud connector deactivated
+02:08:46.768 [DEBUG] [.i.o.internal.CloudServiceImpl:384  ] - unsetEventPublisher
+02:08:46.793 [DEBUG] [o.o.i.o.internal.CloudClient  :175  ] - Socket.IO disconnected
+02:08:46.858 [INFO ] [o.o.i.o.internal.CloudClient  :246  ] - Disconnected from the openHAB Cloud service (UUID = 29ae3c96-baf6-4cef-9d9d-e76ecf4386f6, local base URL = http://localhost:8080)
+02:08:47.070 [DEBUG] [.c.t.i.TransformationActivator:46   ] - Transformation Service has been stopped.
+02:08:47.344 [DEBUG] [a.internal.AutoUpdateActivator:38   ] - AutoUpdate binding has been stopped.
+02:08:47.419 [DEBUG] [i.internal.GenericItemProvider:133  ] - Read items from model 'default.items'
+02:08:47.431 [DEBUG] [o.o.c.i.items.ItemRegistryImpl:159  ] - Item provider 'GenericItemProvider' has been removed.
+02:08:47.689 [DEBUG] [.io.transport.mqtt.MqttService:130  ] - Stopping MQTT Service...
+02:08:47.696 [DEBUG] [.io.transport.mqtt.MqttService:139  ] - MQTT Service stopped.
+02:08:47.797 [DEBUG] [ore.internal.items.ItemUpdater:76   ] - Received update for non-existing item: Item 'raspiLED' could not be found in the item registry
+02:08:47.807 [DEBUG] [ore.internal.items.ItemUpdater:76   ] - Received update for non-existing item: Item 'taster' could not be found in the item registry
+02:08:47.848 [DEBUG] [ore.internal.items.ItemUpdater:76   ] - Received update for non-existing item: Item 'LED2' could not be found in the item registry
+02:08:47.889 [INFO ] [.o.core.internal.CoreActivator:77   ] - openHAB runtime has been terminated.
+02:08:47.896 [DEBUG] [.s.internal.SchedulerActivator:51   ] - Scheduler has been stopped.
+02:08:47.910 [INFO ] [rg.quartz.core.QuartzScheduler:653  ] - Scheduler openHAB-job-scheduler_$_NON_CLUSTERED shutting down.
+02:08:47.927 [INFO ] [rg.quartz.core.QuartzScheduler:572  ] - Scheduler openHAB-job-scheduler_$_NON_CLUSTERED paused.
+02:08:47.941 [INFO ] [rg.quartz.core.QuartzScheduler:725  ] - Scheduler openHAB-job-scheduler_$_NON_CLUSTERED shutdown complete.
+02:08:47.970 [DEBUG] [m.internal.MultimediaActivator:44   ] - Multimedia I/O bundle has been stopped.
+02:08:53.019 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl:100  ] - mDNS service has been stopped
+02:08:53.032 [DEBUG] [.s.i.DiscoveryServiceActivator:34   ] - Discovery service has been stopped.
+02:08:56.924 [DEBUG] [.o.i.o.i.CloudServiceActivator:36   ] - CloudService has been stopped.
+02:08:56.936 [DEBUG] [o.o.b.g.i.GPIOBindingActivator:37   ] - GPIO binding has been stopped.
+02:11:47.981 [DEBUG] [.s.internal.SchedulerActivator:36   ] - Scheduler has been started.
+02:11:49.224 [INFO ] [uartz.impl.StdSchedulerFactory:1175 ] - Using default implementation for ThreadExecutor
+02:11:50.218 [INFO ] [rtz.core.SchedulerSignalerImpl:61   ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+02:11:50.227 [INFO ] [rg.quartz.core.QuartzScheduler:243  ] - Quartz Scheduler v.2.1.7 created.
+02:11:50.253 [INFO ] [org.quartz.simpl.RAMJobStore  :154  ] - RAMJobStore initialized.
+02:11:50.277 [INFO ] [rg.quartz.core.QuartzScheduler:268  ] - Scheduler meta-data: Quartz Scheduler (v2.1.7) 'openHAB-job-scheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 2 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+02:11:50.290 [INFO ] [uartz.impl.StdSchedulerFactory:1324 ] - Quartz scheduler 'openHAB-job-scheduler' initialized from specified file: './etc/quartz.properties'
+02:11:50.297 [INFO ] [uartz.impl.StdSchedulerFactory:1328 ] - Quartz scheduler version: 2.1.7
+02:11:50.309 [INFO ] [rg.quartz.core.QuartzScheduler:534  ] - Scheduler openHAB-job-scheduler_$_NON_CLUSTERED started.
+02:11:50.362 [DEBUG] [o.config.core.ConfigDispatcher:146  ] - Processing openHAB default configuration file '/opt/openhab/configurations/openhab_default.cfg'.
+02:11:52.028 [DEBUG] [o.config.core.ConfigDispatcher:168  ] - Processing openHAB main configuration file '/opt/openhab/configurations/openhab.cfg'.
+02:11:53.342 [DEBUG] [.o.core.internal.CoreActivator:93   ] - UUID file already exists at '/opt/openhab/webapps/static/uuid' with content '29ae3c96-baf6-4cef-9d9d-e76ecf4386f6'
+02:11:53.363 [DEBUG] [.o.core.internal.CoreActivator:115  ] - Created file '/opt/openhab/webapps/static/version' with content '1.8.3'
+02:11:53.376 [INFO ] [.o.core.internal.CoreActivator:61   ] - openHAB runtime has been started (v1.8.3).
+02:11:53.923 [DEBUG] [a.internal.AutoUpdateActivator:31   ] - AutoUpdate binding has been started.
+02:12:52.701 [DEBUG] [.p.i.PersistenceModelActivator:23   ] - Registered 'persistence' configuration parser
+02:12:54.621 [DEBUG] [.c.t.i.TransformationActivator:38   ] - Transformation Service has been started.
+02:12:56.175 [DEBUG] [m.internal.MultimediaActivator:34   ] - Multimedia I/O bundle has been started.
+02:12:57.443 [DEBUG] [.s.i.DiscoveryServiceActivator:27   ] - Discovery service has been started.
+02:12:57.637 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl:93   ] - mDNS service has been started
+02:12:58.622 [DEBUG] [.io.transport.mqtt.MqttService:123  ] - Starting MQTT Service...
+02:13:00.862 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl:53   ] - Service Discovery initialization completed.
+02:13:07.762 [DEBUG] [.i.internal.ItemModelActivator:24   ] - Registered 'item' configuration parser
+02:13:13.143 [DEBUG] [o.o.c.i.items.ItemRegistryImpl:137  ] - Item provider 'GenericItemProvider' has been added.
+02:13:30.781 [INFO ] [c.internal.ModelRepositoryImpl:80   ] - Loading model 'default.items'
+02:13:39.948 [DEBUG] [i.internal.GenericItemProvider:154  ] - Processing binding configs for items from model 'default.items'
+02:13:40.125 [DEBUG] [i.internal.GenericItemProvider:133  ] - Read items from model 'default.items'
+02:13:55.710 [DEBUG] [.o.m.s.i.SitemapModelActivator:23   ] - Registered 'sitemap' configuration parser
+02:14:02.952 [INFO ] [c.internal.ModelRepositoryImpl:80   ] - Loading model 'default.sitemap'
+02:14:11.048 [DEBUG] [io.rest.internal.RESTActivator:33   ] - REST API has been started.
+02:14:12.556 [INFO ] [org.atmosphere.util.IOUtils   :370  ] - META-INF/services/org.atmosphere.cpr.AtmosphereFramework not found in class loader
+02:14:13.164 [INFO ] [sphere.cpr.AtmosphereFramework:2601 ] - Atmosphere is using org.atmosphere.cpr.DefaultAnnotationProcessor for processing annotation
+02:14:13.196 [INFO ] [cpr.DefaultAnnotationProcessor:138  ] - AnnotationProcessor class org.atmosphere.cpr.DefaultAnnotationProcessor$BytecodeBasedAnnotationProcessor being used
+02:14:14.146 [WARN ] [cpr.DefaultAnnotationProcessor:178  ] - Unable to detect annotations. Application may fail to deploy.
+02:14:15.403 [INFO ] [sphere.cpr.AtmosphereFramework:1891 ] - Auto detecting atmosphere handlers /WEB-INF/classes/
+02:14:16.047 [INFO ] [sphere.cpr.AtmosphereFramework:639  ] - Installed AtmosphereHandler org.atmosphere.handler.ReflectorServletProcessor mapped to context-path /* and Broadcaster Class org.atmosphere.jersey.JerseyBroadcaster
+02:14:16.066 [INFO ] [sphere.cpr.AtmosphereFramework:1945 ] - Auto detecting WebSocketHandler in /WEB-INF/classes/
+02:14:16.091 [INFO ] [sphere.cpr.AtmosphereFramework:1602 ] - Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+02:14:17.285 [INFO ] [.a.h.ReflectorServletProcessor:103  ] - Installing Servlet com.sun.jersey.spi.container.servlet.ServletContainer
+02:14:21.274 [INFO ] [c.s.j.s.i.a.WebApplicationImpl:815  ] - Initiating Jersey application, version 'Jersey: 1.18.1 02/19/2014 03:28 AM'
+02:14:21.353 [INFO ] [c.s.j.s.i.a.WebApplicationImpl:826  ] - Adding the following classes declared in META-INF/services/jersey-server-components to the resource configuration:
+  class org.atmosphere.jersey.AtmosphereResourceConfigurator
+02:14:24.132 [INFO ] [j.s.i.a.DeferredResourceConfig:101  ] - Instantiated the Application class org.openhab.io.rest.RESTApplication
+02:14:53.353 [INFO ] [sphere.cpr.AtmosphereFramework:2435 ] - AtmosphereInterceptor CORS Interceptor Support will always be executed first
+02:14:53.371 [INFO ] [sphere.cpr.AtmosphereFramework:2404 ] - Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+02:14:53.390 [INFO ] [sphere.cpr.AtmosphereFramework:2404 ] - Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+02:14:53.443 [INFO ] [sphere.cpr.AtmosphereFramework:2404 ] - Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+02:14:53.479 [INFO ] [sphere.cpr.AtmosphereFramework:2404 ] - Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+02:14:53.520 [INFO ] [sphere.cpr.AtmosphereFramework:2404 ] - Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+02:14:53.591 [INFO ] [sphere.cpr.AtmosphereFramework:2404 ] - Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+02:14:53.613 [INFO ] [sphere.cpr.AtmosphereFramework:2404 ] - Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+02:14:53.710 [INFO ] [sphere.cpr.AtmosphereFramework:935  ] - Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+02:14:53.748 [WARN ] [sphere.cpr.AtmosphereFramework:941  ] - No BroadcasterCache configured. Broadcasted message between client reconnection will be LOST. It is recommended to configure the org.atmosphere.cache.UUIDBroadcasterCache
+02:14:53.755 [INFO ] [sphere.cpr.AtmosphereFramework:949  ] - Default Broadcaster Class: org.atmosphere.jersey.JerseyBroadcaster
+02:14:53.774 [INFO ] [sphere.cpr.AtmosphereFramework:950  ] - Broadcaster Polling Wait Time 100
+02:14:53.782 [INFO ] [sphere.cpr.AtmosphereFramework:951  ] - Shared ExecutorService supported: true
+02:14:53.800 [INFO ] [sphere.cpr.AtmosphereFramework:958  ] - Messaging Thread Pool Size: 10
+02:14:53.837 [INFO ] [sphere.cpr.AtmosphereFramework:968  ] - Async I/O Thread Pool Size: 10
+02:14:53.857 [INFO ] [sphere.cpr.AtmosphereFramework:979  ] - Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+02:14:53.866 [INFO ] [sphere.cpr.AtmosphereFramework:980  ] - Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+02:14:53.887 [INFO ] [sphere.cpr.AtmosphereFramework:990  ] - Invoke AtmosphereInterceptor on WebSocket message true
+02:14:53.894 [INFO ] [sphere.cpr.AtmosphereFramework:991  ] - HttpSession supported: false
+02:14:53.919 [INFO ] [sphere.cpr.AtmosphereFramework:993  ] - Atmosphere is using DefaultAtmosphereObjectFactory for dependency injection and object creation
+02:14:53.958 [INFO ] [sphere.cpr.AtmosphereFramework:994  ] - Atmosphere is using async support: org.atmosphere.container.JettyAsyncSupportWithWebSocket running under container: jetty/8.1.3.v20120522 with WebSocket enabled.
+02:14:54.028 [INFO ] [sphere.cpr.AtmosphereFramework:996  ] - Atmosphere Framework 2.2.5 started.
+02:14:54.057 [INFO ] [sphere.cpr.AtmosphereFramework:998  ] - 
+
+	For Atmosphere Framework Commercial Support, visit 
+	http://www.async-io.org/ or send an email to support@async-io.org
+
+02:14:54.117 [INFO ] [penhab.io.rest.RESTApplication:144  ] - Started REST API at /rest
+02:14:54.164 [DEBUG] [o.o.i.s.i.DiscoveryServiceImpl:66   ] - Registering new service _openhab-server._tcp.local. at port 8080
+02:14:56.913 [DEBUG] [o.o.i.s.i.DiscoveryServiceImpl:66   ] - Registering new service _openhab-server-ssl._tcp.local. at port 8443
+02:15:02.033 [INFO ] [.o.u.w.i.servlet.WebAppServlet:80   ] - Started Classic UI at /classicui/openhab.app
+02:15:12.134 [DEBUG] [.r.internal.RuleModelActivator:42   ] - Registered 'rules' configuration parser
+02:15:12.441 [DEBUG] [m.r.internal.engine.RuleEngine:77   ] - Started rule engine
+02:15:24.202 [INFO ] [c.internal.ModelRepositoryImpl:80   ] - Loading model 'tuer.rules'
+02:15:27.432 [DEBUG] [.o.i.o.i.CloudServiceActivator:28   ] - CloudService has been started.
+02:15:27.516 [DEBUG] [.i.o.internal.CloudServiceImpl:379  ] - setEventPublisher
+02:15:27.551 [DEBUG] [.i.o.internal.CloudServiceImpl:152  ] - remoteAccessEnabled is not set, keeping value 'true'
+02:15:27.567 [DEBUG] [.i.o.internal.CloudServiceImpl:166  ] - cloudBaseUrl set to 'https://myopenhab.org/'
+02:15:27.598 [DEBUG] [.i.o.internal.CloudServiceImpl:266  ] - UUID file found at '/opt/openhab/webapps/static/uuid' with content '29ae3c96-baf6-4cef-9d9d-e76ecf4386f6'
+02:15:27.608 [DEBUG] [.i.o.internal.CloudServiceImpl:318  ] - Secret file already exists at '/opt/openhab/webapps/static/secret' with content 'pnA0RVe5zZaE7JG5qvO2'
+02:15:27.627 [DEBUG] [.i.o.internal.CloudServiceImpl:189  ] - UUID = 29ae3c96-baf6-4cef-9d9d-e76ecf4386f6, secret = pnA0RVe5zZaE7JG5qvO2
+02:15:27.879 [DEBUG] [.i.o.internal.CloudServiceImpl:266  ] - UUID file found at '/opt/openhab/webapps/static/uuid' with content '29ae3c96-baf6-4cef-9d9d-e76ecf4386f6'
+02:15:27.918 [DEBUG] [.i.o.internal.CloudServiceImpl:318  ] - Secret file already exists at '/opt/openhab/webapps/static/secret' with content 'pnA0RVe5zZaE7JG5qvO2'
+02:15:27.959 [DEBUG] [.i.o.internal.CloudServiceImpl:252  ] - Version file found at '/opt/openhab/webapps/static/version' with content '1.8.3'
+02:15:29.172 [DEBUG] [o.o.i.o.internal.CloudClient  :149  ] - Manager.EVENT_TRANSPORT
+02:15:29.458 [DEBUG] [o.o.b.g.i.GPIOBindingActivator:30   ] - GPIO binding has been started.
+02:15:33.160 [DEBUG] [i.internal.GenericItemProvider:341  ] - Start processing binding configuration of Item 'raspiLED (Type=SwitchItem, State=Uninitialized)' with 'GPIOGenericBindingProvider' reader.
+02:15:33.190 [DEBUG] [i.internal.GenericItemProvider:341  ] - Start processing binding configuration of Item 'taster (Type=ContactItem, State=Uninitialized)' with 'GPIOGenericBindingProvider' reader.
+02:15:33.206 [DEBUG] [i.internal.GenericItemProvider:341  ] - Start processing binding configuration of Item 'LED2 (Type=SwitchItem, State=Uninitialized)' with 'GPIOGenericBindingProvider' reader.
+02:15:34.332 [DEBUG] [o.o.i.o.internal.CloudClient  :154  ] - Transport.EVENT_REQUEST_HEADERS
+02:15:35.673 [DEBUG] [m.r.internal.engine.RuleEngine:305  ] - Executing rule 'klingeln'
+02:15:46.872 [DEBUG] [riptExtensionClassNameProvider:63   ] - Script actions have changed: AudioActionService, ExecActionService, CloudServiceImpl, TransformationActionService, PingActionService, HTTPActionService, 
+02:15:48.719 [DEBUG] [o.o.i.o.internal.CloudClient  :149  ] - Manager.EVENT_TRANSPORT
+02:15:48.807 [DEBUG] [o.o.i.o.internal.CloudClient  :154  ] - Transport.EVENT_REQUEST_HEADERS
+02:15:50.870 [DEBUG] [o.o.i.o.internal.CloudClient  :154  ] - Transport.EVENT_REQUEST_HEADERS
+02:15:51.052 [DEBUG] [o.o.i.o.internal.CloudClient  :168  ] - Socket.IO connected
+02:15:51.087 [INFO ] [o.o.i.o.internal.CloudClient  :235  ] - Connected to the openHAB Cloud service (UUID = 29ae3c96-baf6-4cef-9d9d-e76ecf4386f6, local base URL = http://localhost:8080)
+02:15:51.714 [DEBUG] [o.o.i.o.internal.CloudClient  :154  ] - Transport.EVENT_REQUEST_HEADERS
+02:15:56.527 [INFO ] [org.openhab.model.script.test :53   ] - HAHAHA GPIO 22 changed to CLOSED
+02:15:57.429 [DEBUG] [.i.o.internal.CloudServiceImpl:109  ] - Sending broadcast message 'GPIO 22 changed to CLOSED'
+02:16:02.970 [DEBUG] [m.r.internal.engine.RuleEngine:305  ] - Executing rule 'streamStarten'
+02:16:03.559 [DEBUG] [.o.b.gpio.internal.GPIOBinding:89   ] - Send command 1 to GPIO 4
+02:16:03.675 [DEBUG] [.i.o.internal.CloudServiceImpl:109  ] - Sending broadcast message 'Stream gestartet'

@@ -1,0 +1,9 @@
+sitemap Tuer label="Hauptmenü"
+{
+	Frame{
+		Video item=stream url="http://96.10.1.168/mjpg/1/video.mjpg" encoding="mjpeg" label="Kamera" visibility=[camSwitch==ON]
+		Switch item=camSwitch label="Kamera" icon="camera"
+		Switch item=microSwitch label="Micro" icon="micro"
+		Switch item=tuerSwitch label="Tür" icon="door" labelcolor=[tuer==ON="green", tuer==OFF="red"]
+	}
+}
