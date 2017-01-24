@@ -1,0 +1,14 @@
+Per Openhab (geht nicht)
+https://github.com/openhab/openhab1-addons/wiki/Linux-and-OS-X
+http://blog.wenzlaff.de/?p=6699
+http://www.kriwanek.de/index.php/de/homeautomation/zentrale/openhab/installation/143-openhab-mqtt-binding-installieren
+https://groups.google.com/forum/#!topic/openhab/088BfYvMLmw
+https://community.openhab.org/t/solved-got-google-tts-to-work/8203
+https://community.openhab.org/t/google-tts-openhab-2-0/20281/5
+-------------------------------------------------------------------------------------------------------------------------
+Per Shellscript (geht)
+http://elinux.org/RPi_Text_to_Speech_(Speech_Synthesis)#Google_Text_to_Speech
+-------------------------------------------------------------------------------------------------------------------------
+MarryTTS (geht auch nicht)
+https://community.openhab.org/t/install-marytts-locally-and-maven-problems-please-help/17351
+https://github.com/marytts/marytts/wiki/Local-MaryTTS-Server-Installation
