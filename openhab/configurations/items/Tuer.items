@@ -1,0 +1,5 @@
+Switch camSwitch "Kamera" <camera>
+Switch microSwitch "Micro" <micro>
+Switch tuerSwitch "Tür" <door>
+Switch testSwitch "test" <door>
+

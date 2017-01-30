@@ -1,0 +1,241 @@
+2017-01-30 13:58:06,671 [Component Resolve Thread (Bundle 98)] INFO  marytts.main Mary starting up...
+2017-01-30 13:58:06,680 [Component Resolve Thread (Bundle 98)] INFO  marytts.main Specification version 5.1-SNAPSHOT
+2017-01-30 13:58:06,681 [Component Resolve Thread (Bundle 98)] INFO  marytts.main Implementation version unknown
+2017-01-30 13:58:06,681 [Component Resolve Thread (Bundle 98)] INFO  marytts.main Running on a Java 1.8.0_65 implementation by Oracle Corporation, on a Linux platform (arm, 4.4.32-v7+)
+2017-01-30 13:58:07,199 [Component Resolve Thread (Bundle 98)] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.Synthesis'
+2017-01-30 13:58:07,217 [Component Resolve Thread (Bundle 98)] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TextToMaryXML'
+2017-01-30 13:58:07,219 [Component Resolve Thread (Bundle 98)] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SableParser'
+2017-01-30 13:58:07,221 [Component Resolve Thread (Bundle 98)] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SSMLParser'
+2017-01-30 13:58:07,223 [Component Resolve Thread (Bundle 98)] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.APMLParser'
+2017-01-30 13:58:07,225 [Component Resolve Thread (Bundle 98)] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.EmotionmlParser'
+2017-01-30 13:58:07,227 [Component Resolve Thread (Bundle 98)] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JTokeniser'
+2017-01-30 13:58:07,230 [Component Resolve Thread (Bundle 98)] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.DummyTokens2Words'
+2017-01-30 13:58:07,231 [Component Resolve Thread (Bundle 98)] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.ProsodyGeneric'
+2017-01-30 13:58:07,242 [Component Resolve Thread (Bundle 98)] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PronunciationModel'
+2017-01-30 13:58:07,246 [Component Resolve Thread (Bundle 98)] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TargetFeatureLister'
+2017-01-30 13:58:07,248 [Component Resolve Thread (Bundle 98)] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HalfPhoneTargetFeatureLister'
+2017-01-30 13:58:07,250 [Component Resolve Thread (Bundle 98)] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.AcousticModeller'
+2017-01-30 13:58:07,254 [Component Resolve Thread (Bundle 98)] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedAcoustparamsExtractor'
+2017-01-30 13:58:07,255 [Component Resolve Thread (Bundle 98)] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedDurationsExtractor'
+2017-01-30 13:58:07,257 [Component Resolve Thread (Bundle 98)] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HTSEngine'
+2017-01-30 13:58:07,262 [Component Resolve Thread (Bundle 98)] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PraatTextGridGenerator'
+2017-01-30 13:58:07,265 [Component Resolve Thread (Bundle 98)] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.JTokeniser'
+2017-01-30 13:58:07,268 [Component Resolve Thread (Bundle 98)] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.Preprocess'
+2017-01-30 13:58:07,270 [Component Resolve Thread (Bundle 98)] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.OpenNLPPosTagger(de,de.pos)'
+2017-01-30 13:58:07,273 [Component Resolve Thread (Bundle 98)] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.JPhonemiser'
+2017-01-30 13:58:07,280 [Component Resolve Thread (Bundle 98)] INFO  marytts.JPhonemiser_de User dictionary './user-dictionaries/userdict-de.txt' for locale 'de' does not exist. Ignoring.
+2017-01-30 13:58:07,380 [Component Resolve Thread (Bundle 98)] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.Prosody'
+2017-01-30 13:58:07,383 [Component Resolve Thread (Bundle 98)] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.Postlex'
+2017-01-30 13:58:07,385 [Component Resolve Thread (Bundle 98)] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SimplePhoneme2AP(de)'
+2017-01-30 13:58:07,387 [Component Resolve Thread (Bundle 98)] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.JTokeniser'
+2017-01-30 13:58:07,388 [Component Resolve Thread (Bundle 98)] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.FreeTTSTokenToWords'
+2017-01-30 13:58:07,424 [Component Resolve Thread (Bundle 98)] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JPhonemiser(en_US.)'
+2017-01-30 13:58:07,424 [Component Resolve Thread (Bundle 98)] INFO  marytts.JPhonemiser User dictionary './user-dictionaries/userdict-en_US.txt' for locale 'en_US' does not exist. Ignoring.
+2017-01-30 13:58:07,590 [Component Resolve Thread (Bundle 98)] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JPhonemiser(en_GB.)'
+2017-01-30 13:58:07,591 [Component Resolve Thread (Bundle 98)] INFO  marytts.JPhonemiser User dictionary './user-dictionaries/userdict-en_GB.txt' for locale 'en_GB' does not exist. Ignoring.
+2017-01-30 13:58:07,694 [Component Resolve Thread (Bundle 98)] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.Prosody'
+2017-01-30 13:58:07,696 [Component Resolve Thread (Bundle 98)] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SimplePhoneme2AP(en_US)'
+2017-01-30 13:58:07,696 [Component Resolve Thread (Bundle 98)] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.Utt2XMLWordsEn'
+2017-01-30 13:58:07,703 [Component Resolve Thread (Bundle 98)] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.XML2UttTokensEn'
+2017-01-30 13:58:07,714 [Component Resolve Thread (Bundle 98)] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.PronunciationModel'
+2017-01-30 13:58:07,716 [Component Resolve Thread (Bundle 98)] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.OpenNLPPosTagger(en,en.pos)'
+2017-01-30 13:58:07,728 [Component Resolve Thread (Bundle 98)] INFO  marytts.UnitSelectionSynthesizer started.
+2017-01-30 13:58:07,732 [Component Resolve Thread (Bundle 98)] INFO  marytts.TargetFeatureLister Module started (ACOUSTPARAMS->TARGETFEATURES, locale null).
+2017-01-30 13:58:07,732 [Component Resolve Thread (Bundle 98)] INFO  marytts.HTSEngine Module started (TARGETFEATURES->AUDIO, locale null).
+2017-01-30 13:58:07,814 [Component Resolve Thread (Bundle 98)] INFO  marytts.HMMData Loading Tree Set in CARTs:
+2017-01-30 13:58:08,595 [Component Resolve Thread (Bundle 98)] INFO  marytts.HMMData Loading GV Model Set:
+2017-01-30 13:58:09,094 [Component Resolve Thread (Bundle 98)] INFO  marytts.Voice Registering voice `cmu-slt-hsmm': female, locale en_US
+2017-01-30 13:58:09,123 [Component Resolve Thread (Bundle 98)] INFO  marytts.Voice New default voice for locale en_US: cmu-slt-hsmm (desire 0)
+2017-01-30 13:58:09,136 [Component Resolve Thread (Bundle 98)] INFO  marytts.HMMData Loading Tree Set in CARTs:
+2017-01-30 13:58:09,622 [Component Resolve Thread (Bundle 98)] INFO  marytts.HMMData Loading GV Model Set:
+2017-01-30 13:58:10,314 [Component Resolve Thread (Bundle 98)] INFO  marytts.Voice Registering voice `bits1-hsmm': female, locale de
+2017-01-30 13:58:10,315 [Component Resolve Thread (Bundle 98)] INFO  marytts.Voice New default voice for locale de: bits1-hsmm (desire 0)
+2017-01-30 13:58:10,326 [Component Resolve Thread (Bundle 98)] INFO  marytts.HMMData Loading Tree Set in CARTs:
+2017-01-30 13:58:10,785 [Component Resolve Thread (Bundle 98)] INFO  marytts.HMMData Loading GV Model Set:
+2017-01-30 13:58:11,560 [Component Resolve Thread (Bundle 98)] INFO  marytts.Voice Registering voice `bits3-hsmm': male, locale de
+2017-01-30 13:58:11,560 [Component Resolve Thread (Bundle 98)] INFO  marytts.HMMSynthesizer started.
+2017-01-30 13:58:11,561 [Component Resolve Thread (Bundle 98)] INFO  marytts.Synthesis Module started (ACOUSTPARAMS->AUDIO, locale null).
+2017-01-30 13:58:11,562 [Component Resolve Thread (Bundle 98)] INFO  marytts.HMMSynthesizer Starting power-on self test.
+2017-01-30 13:58:11,637 [Component Resolve Thread (Bundle 98)] INFO  marytts.HTSEngine Using prosody from acoustparams.
+2017-01-30 13:58:11,644 [Component Resolve Thread (Bundle 98)] INFO  marytts.HTSEngine Number of models in sentence numModel=7  Total number of states numState=35
+2017-01-30 13:58:11,644 [Component Resolve Thread (Bundle 98)] INFO  marytts.HTSEngine Total number of frames=147  Number of voiced frames=89
+2017-01-30 13:58:11,676 [Component Resolve Thread (Bundle 98)] INFO  marytts.ParameterGeneration Parameter generation for MGC: 
+2017-01-30 13:58:11,677 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Context-dependent global variance optimization: gvLength = 107
+2017-01-30 13:58:11,712 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (0)  number of iterations=23
+2017-01-30 13:58:11,724 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (1)  number of iterations=54
+2017-01-30 13:58:11,730 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (2)  number of iterations=47
+2017-01-30 13:58:11,733 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (3)  number of iterations=20
+2017-01-30 13:58:11,736 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (4)  number of iterations=13
+2017-01-30 13:58:11,739 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (5)  number of iterations=21
+2017-01-30 13:58:11,741 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (6)  number of iterations=7
+2017-01-30 13:58:11,742 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (7)  number of iterations=4
+2017-01-30 13:58:11,744 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (8)  number of iterations=11
+2017-01-30 13:58:11,747 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (9)  number of iterations=19
+2017-01-30 13:58:11,749 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (10)  number of iterations=16
+2017-01-30 13:58:11,751 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (11)  number of iterations=8
+2017-01-30 13:58:11,752 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (12)  number of iterations=2
+2017-01-30 13:58:11,754 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (13)  number of iterations=13
+2017-01-30 13:58:11,756 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (14)  number of iterations=13
+2017-01-30 13:58:11,759 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (15)  number of iterations=18
+2017-01-30 13:58:11,761 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (16)  number of iterations=14
+2017-01-30 13:58:11,763 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (17)  number of iterations=16
+2017-01-30 13:58:11,766 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (18)  number of iterations=17
+2017-01-30 13:58:11,767 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (19)  number of iterations=12
+2017-01-30 13:58:11,770 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (20)  number of iterations=16
+2017-01-30 13:58:11,772 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (21)  number of iterations=14
+2017-01-30 13:58:11,774 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (22)  number of iterations=12
+2017-01-30 13:58:11,776 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (23)  number of iterations=18
+2017-01-30 13:58:11,779 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (24)  number of iterations=12
+2017-01-30 13:58:11,780 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (25)  number of iterations=10
+2017-01-30 13:58:11,782 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (26)  number of iterations=13
+2017-01-30 13:58:11,784 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (27)  number of iterations=10
+2017-01-30 13:58:11,786 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (28)  number of iterations=13
+2017-01-30 13:58:11,788 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (29)  number of iterations=8
+2017-01-30 13:58:11,790 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (30)  number of iterations=8
+2017-01-30 13:58:11,792 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (31)  number of iterations=14
+2017-01-30 13:58:11,793 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (32)  number of iterations=8
+2017-01-30 13:58:11,795 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (33)  number of iterations=8
+2017-01-30 13:58:11,797 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (34)  number of iterations=14
+2017-01-30 13:58:11,797 [Component Resolve Thread (Bundle 98)] INFO  marytts.ParameterGeneration Using f0 from maryXML acoustparams
+2017-01-30 13:58:11,799 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Context-dependent global variance optimization: gvLength = 107
+2017-01-30 13:58:11,802 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (0)  number of iterations=16
+2017-01-30 13:58:11,803 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (1)  number of iterations=2
+2017-01-30 13:58:11,807 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (2)  number of iterations=33
+2017-01-30 13:58:11,809 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (3)  number of iterations=8
+2017-01-30 13:58:11,812 [Component Resolve Thread (Bundle 98)] INFO  marytts.PStream Gradient GV optimization for feature: (4)  number of iterations=26
+2017-01-30 13:58:11,820 [Component Resolve Thread (Bundle 98)] INFO  marytts.HMMSynthesizer Power-on self test complete.
+2017-01-30 13:58:11,823 [Component Resolve Thread (Bundle 98)] INFO  marytts.TextToMaryXML Module started (TEXT->RAWMARYXML, locale null).
+2017-01-30 13:58:11,824 [Component Resolve Thread (Bundle 98)] INFO  marytts.TextToMaryXML Starting power-on self test.
+2017-01-30 13:58:11,824 [Component Resolve Thread (Bundle 98)] INFO  marytts.TextToMaryXML Power-on self test complete.
+2017-01-30 13:58:12,719 [Component Resolve Thread (Bundle 98)] INFO  marytts.SableParser Module started (SABLE->RAWMARYXML, locale null).
+2017-01-30 13:58:12,719 [Component Resolve Thread (Bundle 98)] INFO  marytts.SableParser Starting power-on self test.
+2017-01-30 13:58:12,720 [Component Resolve Thread (Bundle 98)] INFO  marytts.SableParser Power-on self test complete.
+2017-01-30 13:58:12,973 [Component Resolve Thread (Bundle 98)] INFO  marytts.SSMLParser Module started (SSML->RAWMARYXML, locale null).
+2017-01-30 13:58:12,973 [Component Resolve Thread (Bundle 98)] INFO  marytts.SSMLParser Starting power-on self test.
+2017-01-30 13:58:12,973 [Component Resolve Thread (Bundle 98)] INFO  marytts.SSMLParser Power-on self test complete.
+2017-01-30 13:58:13,215 [Component Resolve Thread (Bundle 98)] INFO  marytts.APMLParser Module started (APML->RAWMARYXML, locale null).
+2017-01-30 13:58:13,215 [Component Resolve Thread (Bundle 98)] INFO  marytts.APMLParser Starting power-on self test.
+2017-01-30 13:58:13,215 [Component Resolve Thread (Bundle 98)] INFO  marytts.APMLParser Power-on self test complete.
+2017-01-30 13:58:13,350 [Component Resolve Thread (Bundle 98)] INFO  marytts.EmotionmlParser Module started (EMOTIONML->RAWMARYXML, locale null).
+2017-01-30 13:58:13,351 [Component Resolve Thread (Bundle 98)] INFO  marytts.EmotionmlParser Starting power-on self test.
+2017-01-30 13:58:13,351 [Component Resolve Thread (Bundle 98)] INFO  marytts.EmotionmlParser Power-on self test complete.
+2017-01-30 13:58:13,351 [Component Resolve Thread (Bundle 98)] INFO  marytts.JTokeniser Module started (RAWMARYXML->TOKENS, locale null).
+2017-01-30 13:58:13,443 [Component Resolve Thread (Bundle 98)] INFO  marytts.JTokeniser Starting power-on self test.
+2017-01-30 13:58:13,443 [Component Resolve Thread (Bundle 98)] INFO  marytts.JTokeniser Power-on self test complete.
+2017-01-30 13:58:13,443 [Component Resolve Thread (Bundle 98)] INFO  marytts.DummyTokens2Words Module started (TOKENS->WORDS, locale null).
+2017-01-30 13:58:13,443 [Component Resolve Thread (Bundle 98)] INFO  marytts.DummyTokens2Words Starting power-on self test.
+2017-01-30 13:58:13,444 [Component Resolve Thread (Bundle 98)] INFO  marytts.DummyTokens2Words Power-on self test complete.
+2017-01-30 13:58:13,454 [Component Resolve Thread (Bundle 98)] INFO  marytts.Prosody Module started (PHONEMES->INTONATION, locale null).
+2017-01-30 13:58:13,455 [Component Resolve Thread (Bundle 98)] INFO  marytts.Prosody Starting power-on self test.
+2017-01-30 13:58:13,455 [Component Resolve Thread (Bundle 98)] INFO  marytts.Prosody Power-on self test complete.
+2017-01-30 13:58:13,455 [Component Resolve Thread (Bundle 98)] INFO  marytts.PronunciationModel Module started (INTONATION->ALLOPHONES, locale null).
+2017-01-30 13:58:13,455 [Component Resolve Thread (Bundle 98)] INFO  marytts.PronunciationModel Starting power-on self test.
+2017-01-30 13:58:13,456 [Component Resolve Thread (Bundle 98)] INFO  marytts.PronunciationModel Power-on self test complete.
+2017-01-30 13:58:13,456 [Component Resolve Thread (Bundle 98)] INFO  marytts.TargetFeatureLister Starting power-on self test.
+2017-01-30 13:58:13,456 [Component Resolve Thread (Bundle 98)] INFO  marytts.TargetFeatureLister Power-on self test complete.
+2017-01-30 13:58:13,456 [Component Resolve Thread (Bundle 98)] INFO  marytts.TargetFeatureLister Module started (ACOUSTPARAMS->HALFPHONE_TARGETFEATURES, locale null).
+2017-01-30 13:58:13,456 [Component Resolve Thread (Bundle 98)] INFO  marytts.TargetFeatureLister Starting power-on self test.
+2017-01-30 13:58:13,456 [Component Resolve Thread (Bundle 98)] INFO  marytts.TargetFeatureLister Power-on self test complete.
+2017-01-30 13:58:13,456 [Component Resolve Thread (Bundle 98)] INFO  marytts.AcousticModeller Module started (ALLOPHONES->ACOUSTPARAMS, locale null).
+2017-01-30 13:58:13,456 [Component Resolve Thread (Bundle 98)] INFO  marytts.AcousticModeller Starting power-on self test.
+2017-01-30 13:58:13,457 [Component Resolve Thread (Bundle 98)] INFO  marytts.AcousticModeller Power-on self test complete.
+2017-01-30 13:58:13,457 [Component Resolve Thread (Bundle 98)] INFO  marytts.Realised acoustparams extractor Module started (AUDIO->REALISED_ACOUSTPARAMS, locale null).
+2017-01-30 13:58:13,457 [Component Resolve Thread (Bundle 98)] INFO  marytts.Realised acoustparams extractor Starting power-on self test.
+2017-01-30 13:58:13,457 [Component Resolve Thread (Bundle 98)] INFO  marytts.Realised acoustparams extractor Power-on self test complete.
+2017-01-30 13:58:13,457 [Component Resolve Thread (Bundle 98)] INFO  marytts.Realised durations extractor Module started (AUDIO->REALISED_DURATIONS, locale null).
+2017-01-30 13:58:13,457 [Component Resolve Thread (Bundle 98)] INFO  marytts.Realised durations extractor Starting power-on self test.
+2017-01-30 13:58:13,458 [Component Resolve Thread (Bundle 98)] INFO  marytts.Realised durations extractor Power-on self test complete.
+2017-01-30 13:58:13,458 [Component Resolve Thread (Bundle 98)] INFO  marytts.Praat TextGrid generator Module started (AUDIO->PRAAT_TEXTGRID, locale null).
+2017-01-30 13:58:13,458 [Component Resolve Thread (Bundle 98)] INFO  marytts.Praat TextGrid generator Starting power-on self test.
+2017-01-30 13:58:13,458 [Component Resolve Thread (Bundle 98)] INFO  marytts.Praat TextGrid generator Power-on self test complete.
+2017-01-30 13:58:13,458 [Component Resolve Thread (Bundle 98)] INFO  marytts.JTokeniser Module started (RAWMARYXML->TOKENS, locale de).
+2017-01-30 13:58:13,488 [Component Resolve Thread (Bundle 98)] INFO  marytts.JTokeniser Starting power-on self test.
+2017-01-30 13:58:13,501 [Component Resolve Thread (Bundle 98)] INFO  marytts.JTokeniser Power-on self test complete.
+2017-01-30 13:58:13,501 [Component Resolve Thread (Bundle 98)] INFO  marytts.Preprocess Module started (TOKENS->WORDS, locale de).
+2017-01-30 13:58:13,501 [Component Resolve Thread (Bundle 98)] INFO  marytts.Preprocess Starting power-on self test.
+2017-01-30 13:58:13,505 [Component Resolve Thread (Bundle 98)] INFO  marytts.Preprocess Expanding say-as elements...
+2017-01-30 13:58:13,506 [Component Resolve Thread (Bundle 98)] INFO  marytts.Preprocess Matching and expanding patterns...
+2017-01-30 13:58:13,583 [Component Resolve Thread (Bundle 98)] INFO  marytts.Preprocess Done.
+2017-01-30 13:58:13,583 [Component Resolve Thread (Bundle 98)] INFO  marytts.Preprocess Power-on self test complete.
+2017-01-30 13:58:13,583 [Component Resolve Thread (Bundle 98)] INFO  marytts.OpenNLPPosTagger Module started (WORDS->PARTSOFSPEECH, locale de).
+2017-01-30 13:58:17,855 [Component Resolve Thread (Bundle 98)] INFO  marytts.OpenNLPPosTagger Starting power-on self test.
+2017-01-30 13:58:17,856 [Component Resolve Thread (Bundle 98)] INFO  marytts.OpenNLPPosTagger Power-on self test complete.
+2017-01-30 13:58:17,865 [Component Resolve Thread (Bundle 98)] INFO  marytts.JPhonemiser_de Module started (PARTSOFSPEECH->PHONEMES, locale de).
+2017-01-30 13:58:17,911 [Component Resolve Thread (Bundle 98)] INFO  marytts.JPhonemiser_de Starting power-on self test.
+2017-01-30 13:58:17,911 [Component Resolve Thread (Bundle 98)] INFO  marytts.JPhonemiser_de Power-on self test complete.
+2017-01-30 13:58:17,927 [Component Resolve Thread (Bundle 98)] INFO  marytts.Prosody Module started (PHONEMES->INTONATION, locale de).
+2017-01-30 13:58:17,927 [Component Resolve Thread (Bundle 98)] INFO  marytts.Prosody Starting power-on self test.
+2017-01-30 13:58:17,928 [Component Resolve Thread (Bundle 98)] INFO  marytts.Prosody Power-on self test complete.
+2017-01-30 13:58:17,928 [Component Resolve Thread (Bundle 98)] INFO  marytts.PronunciationModel Module started (INTONATION->ALLOPHONES, locale de).
+2017-01-30 13:58:17,928 [Component Resolve Thread (Bundle 98)] INFO  marytts.PronunciationModel Starting power-on self test.
+2017-01-30 13:58:17,928 [Component Resolve Thread (Bundle 98)] INFO  marytts.PronunciationModel Power-on self test complete.
+2017-01-30 13:58:17,930 [Component Resolve Thread (Bundle 98)] INFO  marytts.SimplePhoneme2AP Module started (SIMPLEPHONEMES->ACOUSTPARAMS, locale de).
+2017-01-30 13:58:17,931 [Component Resolve Thread (Bundle 98)] INFO  marytts.SimplePhoneme2AP Starting power-on self test.
+2017-01-30 13:58:17,936 [Component Resolve Thread (Bundle 98)] INFO  marytts.SimplePhoneme2AP Power-on self test complete.
+2017-01-30 13:58:17,936 [Component Resolve Thread (Bundle 98)] INFO  marytts.JTokeniser Module started (RAWMARYXML->TOKENS, locale en).
+2017-01-30 13:58:17,970 [Component Resolve Thread (Bundle 98)] INFO  marytts.JTokeniser Starting power-on self test.
+2017-01-30 13:58:17,971 [Component Resolve Thread (Bundle 98)] INFO  marytts.JTokeniser Power-on self test complete.
+2017-01-30 13:58:17,971 [Component Resolve Thread (Bundle 98)] INFO  marytts.TokenToWords Module started (FREETTS_TOKENS->FREETTS_WORDS, locale en).
+2017-01-30 13:58:18,000 [Component Resolve Thread (Bundle 98)] INFO  marytts.TokenToWords Starting power-on self test.
+2017-01-30 13:58:18,001 [Component Resolve Thread (Bundle 98)] INFO  marytts.TokenToWords Power-on self test complete.
+2017-01-30 13:58:18,001 [Component Resolve Thread (Bundle 98)] INFO  marytts.JPhonemiser Module started (PARTSOFSPEECH->PHONEMES, locale en_US).
+2017-01-30 13:58:18,001 [Component Resolve Thread (Bundle 98)] INFO  marytts.JPhonemiser Starting power-on self test.
+2017-01-30 13:58:18,001 [Component Resolve Thread (Bundle 98)] INFO  marytts.JPhonemiser Power-on self test complete.
+2017-01-30 13:58:18,001 [Component Resolve Thread (Bundle 98)] INFO  marytts.JPhonemiser Module started (PARTSOFSPEECH->PHONEMES, locale en_GB).
+2017-01-30 13:58:18,001 [Component Resolve Thread (Bundle 98)] INFO  marytts.JPhonemiser Starting power-on self test.
+2017-01-30 13:58:18,002 [Component Resolve Thread (Bundle 98)] INFO  marytts.JPhonemiser Power-on self test complete.
+2017-01-30 13:58:18,010 [Component Resolve Thread (Bundle 98)] INFO  marytts.Prosody Module started (PHONEMES->INTONATION, locale en).
+2017-01-30 13:58:18,010 [Component Resolve Thread (Bundle 98)] INFO  marytts.Prosody Starting power-on self test.
+2017-01-30 13:58:18,010 [Component Resolve Thread (Bundle 98)] INFO  marytts.Prosody Power-on self test complete.
+2017-01-30 13:58:18,012 [Component Resolve Thread (Bundle 98)] INFO  marytts.SimplePhoneme2AP Module started (SIMPLEPHONEMES->ACOUSTPARAMS, locale en_US).
+2017-01-30 13:58:18,012 [Component Resolve Thread (Bundle 98)] INFO  marytts.SimplePhoneme2AP Starting power-on self test.
+2017-01-30 13:58:18,017 [Component Resolve Thread (Bundle 98)] INFO  marytts.SimplePhoneme2AP Power-on self test complete.
+2017-01-30 13:58:18,019 [Component Resolve Thread (Bundle 98)] INFO  marytts.Utt2XML WordsEn Module started (FREETTS_WORDS->WORDS, locale en).
+2017-01-30 13:58:18,019 [Component Resolve Thread (Bundle 98)] INFO  marytts.Utt2XML WordsEn Starting power-on self test.
+2017-01-30 13:58:18,020 [Component Resolve Thread (Bundle 98)] INFO  marytts.Utt2XML WordsEn Power-on self test complete.
+2017-01-30 13:58:18,020 [Component Resolve Thread (Bundle 98)] INFO  marytts.XML2Utt TokensEn Module started (TOKENS->FREETTS_TOKENS, locale en).
+2017-01-30 13:58:18,020 [Component Resolve Thread (Bundle 98)] INFO  marytts.XML2Utt TokensEn Starting power-on self test.
+2017-01-30 13:58:18,020 [Component Resolve Thread (Bundle 98)] INFO  marytts.XML2Utt TokensEn Power-on self test complete.
+2017-01-30 13:58:18,021 [Component Resolve Thread (Bundle 98)] INFO  marytts.PronunciationModel Module started (INTONATION->ALLOPHONES, locale en).
+2017-01-30 13:58:18,021 [Component Resolve Thread (Bundle 98)] INFO  marytts.PronunciationModel Starting power-on self test.
+2017-01-30 13:58:18,021 [Component Resolve Thread (Bundle 98)] INFO  marytts.PronunciationModel Power-on self test complete.
+2017-01-30 13:58:18,021 [Component Resolve Thread (Bundle 98)] INFO  marytts.OpenNLPPosTagger Module started (WORDS->PARTSOFSPEECH, locale en).
+2017-01-30 13:58:23,474 [Component Resolve Thread (Bundle 98)] INFO  marytts.OpenNLPPosTagger Starting power-on self test.
+2017-01-30 13:58:23,475 [Component Resolve Thread (Bundle 98)] INFO  marytts.OpenNLPPosTagger Power-on self test complete.
+2017-01-30 13:58:23,477 [Component Resolve Thread (Bundle 98)] INFO  marytts.main Startup complete.
+2017-01-30 13:58:23,483 [Component Resolve Thread (Bundle 98)] WARN  marytts.Voice Could not find default voice for locale en_GB
+2017-01-30 13:58:37,029 [Thread-27] INFO  marytts.main Shutting down modules...
+2017-01-30 13:58:37,696 [Thread-27] INFO  marytts.Synthesis Module shut down.
+2017-01-30 13:58:37,696 [Thread-27] INFO  marytts.TextToMaryXML Module shut down.
+2017-01-30 13:58:37,696 [Thread-27] INFO  marytts.SableParser Module shut down.
+2017-01-30 13:58:37,697 [Thread-27] INFO  marytts.SSMLParser Module shut down.
+2017-01-30 13:58:37,697 [Thread-27] INFO  marytts.APMLParser Module shut down.
+2017-01-30 13:58:37,697 [Thread-27] INFO  marytts.EmotionmlParser Module shut down.
+2017-01-30 13:58:37,697 [Thread-27] INFO  marytts.JTokeniser Module shut down.
+2017-01-30 13:58:37,697 [Thread-27] INFO  marytts.DummyTokens2Words Module shut down.
+2017-01-30 13:58:37,697 [Thread-27] INFO  marytts.Prosody Module shut down.
+2017-01-30 13:58:37,697 [Thread-27] INFO  marytts.PronunciationModel Module shut down.
+2017-01-30 13:58:37,697 [Thread-27] INFO  marytts.TargetFeatureLister Module shut down.
+2017-01-30 13:58:37,697 [Thread-27] INFO  marytts.TargetFeatureLister Module shut down.
+2017-01-30 13:58:37,697 [Thread-27] INFO  marytts.AcousticModeller Module shut down.
+2017-01-30 13:58:37,697 [Thread-27] INFO  marytts.Realised acoustparams extractor Module shut down.
+2017-01-30 13:58:37,697 [Thread-27] INFO  marytts.Realised durations extractor Module shut down.
+2017-01-30 13:58:37,697 [Thread-27] INFO  marytts.HTSEngine Module shut down.
+2017-01-30 13:58:37,698 [Thread-27] INFO  marytts.Praat TextGrid generator Module shut down.
+2017-01-30 13:58:37,698 [Thread-27] INFO  marytts.JTokeniser Module shut down.
+2017-01-30 13:58:37,698 [Thread-27] INFO  marytts.Preprocess Module shut down.
+2017-01-30 13:58:37,698 [Thread-27] INFO  marytts.OpenNLPPosTagger Module shut down.
+2017-01-30 13:58:37,699 [Thread-27] INFO  marytts.Prosody Module shut down.
+2017-01-30 13:58:37,699 [Thread-27] INFO  marytts.PronunciationModel Module shut down.
+2017-01-30 13:58:37,699 [Thread-27] INFO  marytts.SimplePhoneme2AP Module shut down.
+2017-01-30 13:58:37,699 [Thread-27] INFO  marytts.JTokeniser Module shut down.
+2017-01-30 13:58:37,699 [Thread-27] INFO  marytts.TokenToWords Module shut down.
+2017-01-30 13:58:37,700 [Thread-27] INFO  marytts.JPhonemiser Module shut down.
+2017-01-30 13:58:37,700 [Thread-27] INFO  marytts.JPhonemiser Module shut down.
+2017-01-30 13:58:37,700 [Thread-27] INFO  marytts.Prosody Module shut down.
+2017-01-30 13:58:37,700 [Thread-27] INFO  marytts.SimplePhoneme2AP Module shut down.
+2017-01-30 13:58:37,700 [Thread-27] INFO  marytts.Utt2XML WordsEn Module shut down.
+2017-01-30 13:58:37,700 [Thread-27] INFO  marytts.XML2Utt TokensEn Module shut down.
+2017-01-30 13:58:37,700 [Thread-27] INFO  marytts.PronunciationModel Module shut down.
+2017-01-30 13:58:37,700 [Thread-27] INFO  marytts.OpenNLPPosTagger Module shut down.
+2017-01-30 13:58:37,705 [Thread-27] INFO  marytts.main Shutdown complete.
