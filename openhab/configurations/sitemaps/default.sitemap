@@ -7,8 +7,7 @@ sitemap Tuer label="Hauptmenü"
                 Switch item=microSwitch label="Micro" icon="micro"
  		Switch item=tuerSwitch label="Tür" icon="door"
                	Switch item=testSwitch label="test" icon="door"
-		Selection  label="Was wollen Sie sagen" mappings=[0="Bin gleich da.", 1="Bin nicht zu Hause.", 2="Bin in einer Stunde da.", 3="Stellen Sie es in der Garage ab"]
-		Webview url="http://192.168.75.187:8080/static/textInput.html?item=TextInput"
+		Selection item=sagenAuswahl mappings=[ 0="Bin gleich da", 1="Bin nicht zu Hause", 2="Bin in einer Stunde da", 3="Stellen Sie es in der Garage ab" ]
        }
 }
 

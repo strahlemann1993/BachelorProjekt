@@ -4308,3 +4308,44 @@
 2017-01-24 06:47:01 - taster state updated to CLOSED
 2017-01-24 06:47:01 - LED2 received command ON
 2017-01-24 06:47:11 - LED2 received command OFF
+2017-02-02 14:02:27 - raspiLED state updated to OFF
+2017-02-02 14:02:27 - taster state updated to CLOSED
+2017-02-02 14:02:27 - LED2 state updated to OFF
+2017-02-02 14:05:40 - raspiLED state updated to Undefined
+2017-02-02 14:05:41 - LED2 state updated to Undefined
+2017-02-02 14:05:43 - taster state updated to Undefined
+2017-02-02 14:05:43 - raspiLED state updated to OFF
+2017-02-02 14:05:44 - taster state updated to CLOSED
+2017-02-02 14:05:44 - LED2 state updated to OFF
+2017-02-02 14:07:36 - testSwitch received command ON
+2017-02-02 14:07:47 - testSwitch received command OFF
+2017-02-02 14:09:19 - testSwitch received command ON
+2017-02-02 14:10:25 - testSwitch received command OFF
+2017-02-02 14:14:05 - raspiLED state updated to Undefined
+2017-02-02 14:14:05 - LED2 state updated to Undefined
+2017-02-02 14:14:07 - taster state updated to Undefined
+2017-02-02 14:14:07 - raspiLED state updated to OFF
+2017-02-02 14:14:08 - taster state updated to CLOSED
+2017-02-02 14:14:08 - LED2 state updated to OFF
+2017-02-02 14:19:34 - raspiLED state updated to OFF
+2017-02-02 14:19:34 - taster state updated to CLOSED
+2017-02-02 14:19:34 - LED2 state updated to OFF
+2017-02-02 14:19:42 - sagenAuswahl received command 0
+2017-02-02 14:19:59 - sagenAuswahl received command 1
+2017-02-02 14:22:58 - raspiLED state updated to Undefined
+2017-02-02 14:23:00 - taster state updated to Undefined
+2017-02-02 14:23:01 - LED2 state updated to Undefined
+2017-02-02 14:23:01 - raspiLED state updated to OFF
+2017-02-02 14:23:02 - taster state updated to CLOSED
+2017-02-02 14:23:02 - LED2 state updated to OFF
+2017-02-02 14:23:22 - raspiLED state updated to Undefined
+2017-02-02 14:23:24 - taster state updated to Undefined
+2017-02-02 14:23:24 - LED2 state updated to Undefined
+2017-02-02 14:23:25 - raspiLED state updated to OFF
+2017-02-02 14:23:25 - taster state updated to CLOSED
+2017-02-02 14:23:26 - LED2 state updated to OFF
+2017-02-02 14:24:59 - raspiLED state updated to OFF
+2017-02-02 14:24:59 - taster state updated to CLOSED
+2017-02-02 14:24:59 - LED2 state updated to OFF
+2017-02-02 14:25:11 - sagenAuswahl received command 0
+2017-02-02 14:27:36 - sagenAuswahl received command 3

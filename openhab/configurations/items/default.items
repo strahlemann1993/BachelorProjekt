@@ -5,5 +5,4 @@ Switch testSwitch "test" <door>
 Switch raspiLED { gpio="pin:27" }
 Contact taster "Taster"{ gpio="pin:22"} 
 Switch LED2 {gpio="pin:4"}
-String VoiceCommand
-String TextInput
+Number sagenAuswahl "Was wollen Sie sagen" <micro>

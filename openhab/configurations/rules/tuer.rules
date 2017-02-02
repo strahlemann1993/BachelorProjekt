@@ -22,10 +22,6 @@ then
 	sendCommand(LED2,OFF)
 end
 
-
-
-
-
 rule tuerOeffnen
 when
         Item tuerSwitch received command ON
@@ -78,7 +74,7 @@ rule testAn
 when
 	Item testSwitch received command ON
 then
-	//say("Hallo Welt")
+	logInfo("testAn", "Nachricht wird gesprochen ")
 	executeCommandLine(" /opt/openhab/configurations/scripts/speech.sh Ich bin gleich da")
 end
 
@@ -86,30 +82,15 @@ rule testAus
 when
 	Item testSwitch received command OFF
 then
-	//say("Bye Welt")
+        logInfo("testAus", "Nachricht wird gesprochen ")
 	executeCommandLine(" /opt/openhab/configurations/scripts/speech.sh Geh weg")
-end
-
-rule sagen
-when
-	Item VoiceCommand received command
-then
-	logInfo("Voice.Rec","VoiceCommand received "+VoiceCommand.state.toString)
-	executeCommandLine(" /opt/openhab/configurations/scripts/speech.sh " + VoiceCommand.state.toString)
-end
-
-rule textSagen
-when
-	Item TextInput changed
-then
-	executeCommandLine(" /opt/openhab/configurations/scripts/speech.sh Hallo " + TextInput.state.toString)
-	logInfo("Voice.Rec","VoiceCommand received "+VoiceCommand.state.toString)
 end
 
 rule auswahlBox
 when
-	Item sage received command
+	Item sagenAuswahl received command
 then
+        logInfo("auswahlBox", "Wir sind vor switch case ")
 	switch(receivedCommand)
 	{
 		case 0: executeCommandLine( " /opt/openhab/configurations/scripts/speech.sh Bin gleich da")
