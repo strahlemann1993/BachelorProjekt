@@ -1,0 +1,23 @@
+
+sitemap Tuer label="Hauptmenü"
+{
+        Frame{
+                Video url="http://96.10.1.168/mjpg/1/video.mjpg" encoding="mjpeg" label="Kamera" visibility=[camSwitch==ON]
+                Switch item=camSwitch label="Kamera" icon="camera"
+                Switch item=tuerSwitch label="Tür" icon="door"
+               	Switch item=testSwitch label="test" icon="door"
+		Selection item=sagenAuswahl mappings=[ 0="Bin gleich da", 1="Bin nicht zu Hause", 2="Bin in einer Stunde da", 3="Stellen Sie es in der Garage ab" ]
+       }
+}
+
+
+
+
+
+
+
+
+
+
+
+
